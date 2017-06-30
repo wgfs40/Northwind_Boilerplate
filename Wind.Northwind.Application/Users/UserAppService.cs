@@ -81,7 +81,7 @@ namespace Wind.Northwind.Users
                         u.UserName.Contains(input.Filter) ||
                         u.EmailAddress.Contains(input.Filter)
                     );
-
+                
             ;
 
             return new PagedResultDto<UserListDto>(listuser.Count(), listuser.MapTo<List<UserListDto>>());
