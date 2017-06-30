@@ -72,6 +72,7 @@ namespace Wind.Northwind.Users
         
         public PagedResultDto<UserListDto> UserAll(GetUsersInput input)
         {
+            var count = _userRepository.GetAll().Count();
             var listuser =_userRepository.GetAll()                
                 .WhereIf(
                     !input.Filter.IsNullOrWhiteSpace(),
@@ -84,7 +85,7 @@ namespace Wind.Northwind.Users
                 
             ;
 
-            return new PagedResultDto<UserListDto>(listuser.Count(), listuser.MapTo<List<UserListDto>>());
+            return new PagedResultDto<UserListDto>(count, listuser.MapTo<List<UserListDto>>());
 
             
         }
