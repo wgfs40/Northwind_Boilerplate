@@ -9,6 +9,7 @@ using Abp.Application.Services.Dto;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Wind.Northwind.Web.Models.Users;
+using Abp.Authorization;
 
 namespace Wind.Northwind.Web.Controllers
 {
@@ -22,6 +23,7 @@ namespace Wind.Northwind.Web.Controllers
             _userAppService = userAppService;
         }
 
+        [AbpAuthorize]
         public async Task<ActionResult> Index()
         {
             //var output = await _userAppService.GetUsers();
