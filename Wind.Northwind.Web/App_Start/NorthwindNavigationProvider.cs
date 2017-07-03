@@ -39,6 +39,15 @@ namespace Wind.Northwind.Web
                         icon: "fa fa-users",
                         requiredPermissionName: PermissionNames.Pages_Users
                         )
+                .AddItem(
+                        new MenuItemDefinition(
+                            "Roles",
+                            L("Roles"),
+                            url: "Roles",
+                            icon: "fa fa-users",
+                            requiredPermissionName : PermissionNames.Pages_Users
+                            )
+                        )
                 ).AddItem(
                     new MenuItemDefinition(
                         "About",
