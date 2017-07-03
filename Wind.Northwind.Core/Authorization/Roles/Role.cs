@@ -6,7 +6,7 @@ namespace Wind.Northwind.Authorization.Roles
     public class Role : AbpRole<User>
     {
         //Can add application specific role properties here
-
+        
         public Role()
         {
 

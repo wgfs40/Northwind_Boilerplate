@@ -1,5 +1,6 @@
 ﻿using System.Web.Mvc;
 using Abp.Web.Mvc.Authorization;
+using Wind.Northwind.Authorization;
 
 namespace Wind.Northwind.Web.Controllers
 {
