@@ -70,12 +70,6 @@ namespace Wind.Northwind.Users
                 );
         }
 
-        public Task<ListResultDto<Role>> GetRolesList()
-        {
-            
-        }
-
-
         public PagedResultDto<UserListDto> UserAll(GetUsersInput input)
         {
             var count = _userRepository.GetAll().Count();

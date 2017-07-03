@@ -12,8 +12,7 @@ namespace Wind.Northwind.Users
         Task ProhibitPermission(ProhibitPermissionInput input);
 
         Task RemoveFromRole(long userId, string roleName);
-
-        Task<ListResultDto<Role>> GetRolesList();
+        
 
         Task<ListResultDto<UserListDto>> GetUsers();
 

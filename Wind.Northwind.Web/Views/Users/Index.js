@@ -81,6 +81,7 @@
             e.preventDefault();
             getUsers();
         });
+
         getUsers();
         $('#UsersTableFilter').focus();
     });

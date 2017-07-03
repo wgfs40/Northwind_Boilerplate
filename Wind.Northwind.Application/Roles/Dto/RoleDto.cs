@@ -15,5 +15,10 @@ namespace Wind.Northwind.Roles.Dto
     public class RoleDto : EntityDto<int>
     {
         public string DisplayName { get; set; }
+        public bool IsStatic { get; set; }
+        public bool IsDefault { get; set; }
+        public string Name { get; set; }
+        public bool IsDeleted { get; set; }
+
     }
 }

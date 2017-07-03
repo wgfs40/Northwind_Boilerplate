@@ -4,10 +4,14 @@
     ViewBag.Title = "Index";
 }
 
+@section styles{
+      <link href="~/Scripts/jtable/themes/metro/blue/jtable.min.css" rel="stylesheet" />  
+}
+
 @section Scripts
 {
     @Html.IncludeScript("~/Views/Roles/Index.js")
 }
 
-<h2>Index</h2>
+<div id="RolesTable"></div>
 
