@@ -38,16 +38,7 @@ namespace Wind.Northwind.Web
                         url: "Users",
                         icon: "fa fa-users",
                         requiredPermissionName: PermissionNames.Pages_Users
-                        )
-                .AddItem(
-                        new MenuItemDefinition(
-                            "Roles",
-                            L("Roles"),
-                            url: "Roles",
-                            icon: "fa fa-users",
-                            requiredPermissionName : PermissionNames.Pages_Users
-                            )
-                        )
+                        )                
                 ).AddItem(
                     new MenuItemDefinition(
                         "About",
@@ -55,7 +46,16 @@ namespace Wind.Northwind.Web
                         url: "About",
                         icon: "fa fa-info"
                         )
-                );
+                )
+                .AddItem(
+                        new MenuItemDefinition(
+                            "Roles",
+                            L("Roles"),
+                            url: "Roles",
+                            icon: "fa fa-users",
+                            requiredPermissionName: PermissionNames.Pages_Users
+                            )
+                        );
         }
 
         private static ILocalizableString L(string name)

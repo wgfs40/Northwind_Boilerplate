@@ -3,6 +3,7 @@ using Abp.Application.Services;
 using Abp.Application.Services.Dto;
 using Wind.Northwind.Users.Dto;
 using System.Collections.Generic;
+using Wind.Northwind.Authorization.Roles;
 
 namespace Wind.Northwind.Users
 {
@@ -11,6 +12,8 @@ namespace Wind.Northwind.Users
         Task ProhibitPermission(ProhibitPermissionInput input);
 
         Task RemoveFromRole(long userId, string roleName);
+
+        Task<ListResultDto<Role>> GetRolesList();
 
         Task<ListResultDto<UserListDto>> GetUsers();
 

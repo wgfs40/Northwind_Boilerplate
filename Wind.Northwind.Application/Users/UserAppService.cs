@@ -11,6 +11,7 @@ using System.Linq;
 using System;
 using Abp.Collections.Extensions;
 using Abp.Extensions;
+using Wind.Northwind.Authorization.Roles;
 
 namespace Wind.Northwind.Users
 {
@@ -69,7 +70,12 @@ namespace Wind.Northwind.Users
                 );
         }
 
-        
+        public Task<ListResultDto<Role>> GetRolesList()
+        {
+            
+        }
+
+
         public PagedResultDto<UserListDto> UserAll(GetUsersInput input)
         {
             var count = _userRepository.GetAll().Count();
