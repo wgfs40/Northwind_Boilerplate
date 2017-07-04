@@ -5564,3 +5564,7 @@ WARN  2017-07-04 17:48:26,836 [15   ] Abp.Logging.LogHelper                    -
 DEBUG 2017-07-04 17:48:27,182 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d151bb52-4e7f-4efa-8d43-12b3139936dd","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-04T17:48:27.1822997-04:00","Properties":{}}
 DEBUG 2017-07-04 17:48:27,191 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d151bb52-4e7f-4efa-8d43-12b3139936dd
 DEBUG 2017-07-04 17:49:04,077 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d151bb52-4e7f-4efa-8d43-12b3139936dd
+DEBUG 2017-07-04 17:49:33,392 [25   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-07-04 17:49:33,393 [25   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-04 17:49:33,394 [25   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-04 17:49:33,394 [25   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
