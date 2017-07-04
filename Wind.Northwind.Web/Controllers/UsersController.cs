@@ -10,6 +10,8 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Wind.Northwind.Web.Models.Users;
 using Abp.Authorization;
+using Wind.Northwind.Roles;
+using Wind.Northwind.Permissions;
 
 namespace Wind.Northwind.Web.Controllers
 {
@@ -17,10 +19,14 @@ namespace Wind.Northwind.Web.Controllers
     public class UsersController : NorthwindControllerBase
     {
         private readonly IUserAppService _userAppService;
+        private readonly IRoleAppService _roleAppService;
+        private readonly IPermissionAppService _permissionAppService;
 
-        public UsersController(IUserAppService userAppService)
+        public UsersController(IUserAppService userAppService, IRoleAppService roleAppService, IPermissionAppService permissionAppService)
         {
             _userAppService = userAppService;
+            _roleAppService = roleAppService;
+            _permissionAppService = permissionAppService;
         }
 
         [AbpAuthorize]

@@ -16,6 +16,8 @@ namespace Wind.Northwind.Authorization
             }
 
             var users = pages.CreateChildPermission(PermissionNames.Pages_Users, L("Users"));
+            users.CreateChildPermission(PermissionNames.Pages_User_Create, L("Create User"));
+            users.CreateChildPermission(PermissionNames.Pages_User_Edit, L("User Edit"));
 
             //Host permissions
             var tenants = pages.CreateChildPermission(PermissionNames.Pages_Tenants, L("Tenants"), multiTenancySides: MultiTenancySides.Host);

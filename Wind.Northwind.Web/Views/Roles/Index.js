@@ -3,6 +3,15 @@
         var _$rolesTable = $('#RolesTable');
         var _roleService = abp.services.app.role;
 
+
+        var _createOrEditModal = new app.ModalManager({
+            viewUrl: abp.appPath + 'Roles/CreateOrEditModal',
+            scriptUrl: abp.appPath + 'Views/Roles/_CreateOrEditModal.js',
+            modalClass: 'CreateOrEditRoleModal'
+        });
+
+
+
         _$rolesTable.jtable({
             title: 'Role list',
             paging: true, //Enable paging
@@ -22,6 +31,22 @@
                     key: true,
                     list: false
                 },
+                actions: {
+                    title: 'Actions',
+                    width: '30%',
+                    display: function (data) {
+                        var $span = $('<span></span>');
+
+                        $('<button class="btn btn-default btn-xs" title="' + 'Edit' + '"><i class="fa fa-edit"></i></button>')
+                            .appendTo($span)
+                            .click(function () {
+                                _createOrEditModal.open({ id: data.record.id });
+                            });
+
+
+                        return $span;
+                        }
+                    },
                 displayName: {
                     title: 'Display name',
                     width: '40%',

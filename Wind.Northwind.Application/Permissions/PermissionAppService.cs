@@ -10,7 +10,7 @@ namespace Wind.Northwind.Permissions
 {
     public class PermissionAppService : NorthwindAppServiceBase, IPermissionAppService
     {
-        public ListResultDto<PermissionListDto> GetListPermission()
+        public ListResultDto<FlatPermissionWithLevelDto> GetListPermission()
         {
             var permissions = PermissionManager.GetAllPermissions();
             var rootPermissions = permissions.Where(p => p.Parent == null);
@@ -24,7 +24,7 @@ namespace Wind.Northwind.Permissions
 
             }
 
-            return new ListResultDto<PermissionListDto>
+            return new ListResultDto<FlatPermissionWithLevelDto>
             {
                 Items = result
             };
@@ -34,6 +34,7 @@ namespace Wind.Northwind.Permissions
         {
             var flatPermission = permission.MapTo<FlatPermissionWithLevelDto>();
             flatPermission.Level = level;
+            result.Add(flatPermission);
 
             if (permission.Children == null)
             {

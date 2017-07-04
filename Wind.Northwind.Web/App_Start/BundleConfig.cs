@@ -58,7 +58,8 @@ namespace Wind.Northwind.Web
 
                         "~/Scripts/jquery.signalR-2.2.1.min.js",
                         "~/Scripts/jtable/jquery.jtable.min.js",
-                        "~/Abp/Framework/scripts/libs/abp.jtable.js"
+                        "~/Abp/Framework/scripts/libs/abp.jtable.js",
+                        "~/Scripts/underscore.min.js"
                     )
                 );
 
@@ -74,6 +75,7 @@ namespace Wind.Northwind.Web
             bundles.Add(
                 new ScriptBundle("~/Bundles/js")
                     .Include("~/js/main.js")
+                    .Include("~/Common/Scripts/ModalManager.js")
                 );           
         }
     }

@@ -6,6 +6,6 @@ namespace Wind.Northwind.Permissions
 {
     public interface IPermissionAppService : IApplicationService
     {
-        ListResultDto<PermissionListDto> GetListPermission();
+        ListResultDto<FlatPermissionWithLevelDto> GetListPermission();
     }
 }
