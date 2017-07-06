@@ -411,6 +411,7 @@
     <None Include="Scripts\jquery-2.2.0-vsdoc.js" />
     <Content Include="Scripts\jquery-2.2.0.js" />
     <Content Include="Scripts\jquery-2.2.0.min.js" />
+    <Content Include="Scripts\Jquery-Custom\jquery-custom.js" />
     <Content Include="Scripts\jquery-ui-1.11.4.js" />
     <Content Include="Scripts\jquery-ui-1.11.4.min.js" />
     <Content Include="Scripts\jquery.blockUI.js" />
