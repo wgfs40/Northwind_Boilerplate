@@ -62,7 +62,8 @@ namespace Wind.Northwind.Web
                         "~/Scripts/underscore.min.js",
                         "~/Scripts/jtable/jquery.jtable.min.js",
                         "~/Scripts/jsTree3/jstree.min.js",
-                        "~/Scripts/spin/spin.min.js"
+                        "~/Scripts/spin/spin.min.js",
+                        "~/Scripts/spin/jquery.spin.js"
                     )
                 );
 

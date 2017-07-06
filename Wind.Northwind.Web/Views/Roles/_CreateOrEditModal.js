@@ -24,7 +24,7 @@
 
             var role = _$roleInformationForm.serializeFormToObject();
 
-            _modalManager.setBusy(true);
+            //_modalManager.setBusy(true);
             _roleService.createOrUpdateRole({
                 role: role,
                 grantedPermissionNames: _permissionsTree.getSelectedPermissionNames()
@@ -34,7 +34,7 @@
                 _modalManager.close();
                 abp.event.trigger('app.createOrEditRoleModalSaved');
                 }).always(function () {
-                    _modalManager.setBusy(false);   
+                    //_modalManager.setBusy(false);   
                 });
         };
 
