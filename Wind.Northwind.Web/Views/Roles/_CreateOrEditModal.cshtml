@@ -1,6 +1,11 @@
-﻿<h1>Hello workl</h1>
+﻿@using Abp.Extensions
+@using Wind.Northwind.Authorization.Roles
+@using Wind.Northwind.Web.Models.Roles
+@model Wind.Northwind.Web.Models.Roles.CreateOrEditRoleModalViewModel
 
-@*<div class="modal-body">
+@Html.Partial("~/Views/Roles/_ModalHeader.cshtml", new ModalHeaderViewModel(Model.IsEditMode?(L("EditRole") + ": " + Model.Role.DisplayName): L("CreateNewRole")))
+
+<div class="modal-body">
     <div class="tabbable-line">
         <ul class="nav nav-tabs ">
             <li class="active">
@@ -40,8 +45,9 @@
                 </form>
             </div>
             <div class="tab-pane" id="PermissionsTab">
-                Html.Partial("~/Areas/Mpa/Views/Common/_PermissionTree.cshtml", Model)
+               @Html.Partial("~/Views/Roles/_PermissionTree.cshtml", Model)
             </div>
         </div>
     </div>
-</div>*@
+</div>
+@Html.Partial("~/Views/Roles/_ModalFooterWithSaveAndCancel.cshtml")

@@ -130,10 +130,15 @@
     <Compile Include="MultiTenancy\ITenantAppService.cs" />
     <Compile Include="MultiTenancy\Dto\TenantListDto.cs" />
     <Compile Include="MultiTenancy\TenantAppService.cs" />
+    <Compile Include="Permissions\Dto\CreateOrUpdateRoleInput.cs" />
     <Compile Include="Permissions\Dto\FlatPermissionWithLevelDto.cs" />
+    <Compile Include="Permissions\Dto\GetRoleForEditOutput.cs" />
+    <Compile Include="Permissions\Dto\GetRolesInput.cs" />
     <Compile Include="Permissions\Dto\PermissionListDto.cs" />
+    <Compile Include="Roles\Dto\RoleEditDto.cs" />
     <Compile Include="Permissions\IPermissionAppService.cs" />
     <Compile Include="Permissions\PermissionAppService.cs" />
+    <Compile Include="Permissions\PermissionManagerExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Roles\Dto\RoleDto.cs" />
     <Compile Include="Roles\IRoleAppService.cs" />

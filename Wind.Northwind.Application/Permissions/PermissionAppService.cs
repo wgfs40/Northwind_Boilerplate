@@ -5,11 +5,15 @@ using Wind.Northwind.Permissions.Dto;
 using System.Collections.Generic;
 using Abp.Authorization;
 using Abp.AutoMapper;
+using System.Threading.Tasks;
+using Wind.Northwind.Authorization.Roles;
+using System.Diagnostics;
 
 namespace Wind.Northwind.Permissions
 {
     public class PermissionAppService : NorthwindAppServiceBase, IPermissionAppService
-    {
+    {      
+
         public ListResultDto<FlatPermissionWithLevelDto> GetListPermission()
         {
             var permissions = PermissionManager.GetAllPermissions();
@@ -30,6 +34,10 @@ namespace Wind.Northwind.Permissions
             };
         }
 
+
+
+        #region Metodos privados
+
         private void AddPermission(Permission permission, IReadOnlyList<Permission>allpermissions,List<FlatPermissionWithLevelDto>result,int level)
         {
             var flatPermission = permission.MapTo<FlatPermissionWithLevelDto>();
@@ -47,5 +55,7 @@ namespace Wind.Northwind.Permissions
                 AddPermission(chilPermission,allpermissions,result,level + 1);
             }
         }
+       
+        #endregion
     }
 }

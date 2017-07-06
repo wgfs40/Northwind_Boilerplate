@@ -16,5 +16,7 @@
             _$roleInformationForm.validate({ ignore: "" });
         };
 
+        //this.init();
+
     }); 
 })();

@@ -1,5 +1,6 @@
 ﻿(function () {
     $(function () {
+
         var _$rolesTable = $('#RolesTable');
         var _roleService = abp.services.app.role;
 

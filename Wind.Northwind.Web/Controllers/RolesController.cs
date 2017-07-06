@@ -44,10 +44,10 @@ namespace Wind.Northwind.Web.Controllers
 
         public async Task<PartialViewResult> CreateOrEditModal(int? id)
         {
-           // var output = await _roleAppService.GetRoleForEdit(new NullableIdDto { Id = id });
-            //var viewModel = new CreateOrEditRoleModalViewModel(output);
+            var output = await _roleAppService.GetGetRoleForEdit(new NullableIdDto { Id = id });
+            var viewModel = new CreateOrEditRoleModalViewModel(output);
 
-            return PartialView("_CreateOrEditModal", null);
+            return PartialView("_CreateOrEditModal", viewModel);
         }
 
 
