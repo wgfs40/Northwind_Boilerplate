@@ -1,4 +1,5 @@
 ﻿using System.Data.Common;
+using System.Data.Entity;
 using Abp.Zero.EntityFramework;
 using Wind.Northwind.Authorization.Roles;
 using Wind.Northwind.MultiTenancy;
