@@ -1378,3 +1378,1030 @@ WARN  2017-07-06 08:40:48,951 [63   ] Abp.Logging.LogHelper                    -
 WARN  2017-07-06 08:40:48,952 [63   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
 WARN  2017-07-06 08:40:48,952 [63   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
 WARN  2017-07-06 08:40:48,953 [63   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:43:13,494 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-06 08:43:14,281 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-06 08:43:14,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Web.NorthwindWebModule, Wind.Northwind.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindDataModule, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,292 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,292 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindCoreModule, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindApplicationModule, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Api.NorthwindWebApiModule, Wind.Northwind.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:14,299 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-06 08:43:15,227 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 08:43:15,227 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 08:43:15,227 [1    ] o.Configuration.LanguageManagementConfig - Converted Northwind (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 08:43:15,227 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 08:43:15,751 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Wind.Northwind.EntityFramework.NorthwindDbContext, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:43:16,621 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-06 08:43:16,629 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-06 08:43:16,635 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-06 08:43:16,638 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Northwind
+DEBUG 2017-07-06 08:43:16,639 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-06 08:43:16,763 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 08:43:16,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2017-07-06 08:43:16,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-06 08:43:16,832 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-06 08:43:16,832 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.CreateUserInput
+DEBUG 2017-07-06 08:43:16,832 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.UserListDto
+DEBUG 2017-07-06 08:43:16,832 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleEditDto
+DEBUG 2017-07-06 08:43:16,832 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleDto
+DEBUG 2017-07-06 08:43:16,832 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-07-06 08:43:16,832 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.PermissionListDto
+DEBUG 2017-07-06 08:43:16,832 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-06 08:43:16,833 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-06 08:43:16,833 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-07-06 08:43:16,833 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-06 08:43:18,979 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-06 08:43:18,981 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-06 08:43:18,982 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-06 08:43:18,983 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-07-06 08:43:18,984 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-07-06 08:43:24,249 [9    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:25,499 [9    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:43:26,551 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3e3340c2-bce0-43b9-8b30-fe4c310ffc57","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T08:43:26.5394694-04:00","Properties":{}}
+DEBUG 2017-07-06 08:43:26,605 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3e3340c2-bce0-43b9-8b30-fe4c310ffc57
+WARN  2017-07-06 08:43:29,978 [12   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:29,980 [12   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:29,981 [12   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:30,076 [12   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:30,077 [12   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:30,088 [12   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:30,089 [12   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:30,159 [12   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:43:30,251 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3e3340c2-bce0-43b9-8b30-fe4c310ffc57
+WARN  2017-07-06 08:43:30,341 [12   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:43:30,717 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"65de1c6c-aa72-4f5b-a51c-ddfd7c97c46d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T08:43:30.7171588-04:00","Properties":{}}
+DEBUG 2017-07-06 08:43:30,761 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 65de1c6c-aa72-4f5b-a51c-ddfd7c97c46d
+WARN  2017-07-06 08:43:32,457 [9    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:32,459 [9    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:32,460 [9    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:32,491 [10   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:32,495 [10   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:32,496 [10   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:32,497 [10   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:32,498 [10   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 08:43:32,499 [10   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 08:47:08,387 [18   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 08:47:08,389 [18   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 08:47:08,389 [18   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 08:47:08,404 [30   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 08:47:08,405 [30   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 08:47:08,406 [30   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 08:47:08,407 [30   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 08:47:08,407 [30   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 08:47:08,408 [30   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:50:03,051 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-06 08:50:03,077 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-06 08:50:03,089 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Web.NorthwindWebModule, Wind.Northwind.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,092 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindDataModule, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,092 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,093 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,093 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,093 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindCoreModule, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindApplicationModule, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,095 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,095 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Api.NorthwindWebApiModule, Wind.Northwind.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,095 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,095 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,096 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,096 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,096 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:03,101 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-06 08:50:03,355 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 08:50:03,355 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 08:50:03,355 [1    ] o.Configuration.LanguageManagementConfig - Converted Northwind (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 08:50:03,355 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 08:50:03,813 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Wind.Northwind.EntityFramework.NorthwindDbContext, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:50:05,635 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-06 08:50:05,645 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-06 08:50:05,650 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-06 08:50:05,653 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Northwind
+DEBUG 2017-07-06 08:50:05,654 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-06 08:50:05,847 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 08:50:05,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2017-07-06 08:50:05,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-06 08:50:05,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-06 08:50:05,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.CreateUserInput
+DEBUG 2017-07-06 08:50:05,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.UserListDto
+DEBUG 2017-07-06 08:50:05,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleEditDto
+DEBUG 2017-07-06 08:50:05,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleDto
+DEBUG 2017-07-06 08:50:05,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-07-06 08:50:05,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.PermissionListDto
+DEBUG 2017-07-06 08:50:05,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-06 08:50:05,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-06 08:50:05,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-07-06 08:50:05,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-06 08:50:08,064 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-06 08:50:08,065 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-06 08:50:08,067 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-06 08:50:08,068 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-07-06 08:50:08,069 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-07-06 08:50:14,172 [8    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:16,426 [11   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:50:17,265 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"74773353-8087-4351-96ea-876c9b04e6ca","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T08:50:17.2418704-04:00","Properties":{}}
+DEBUG 2017-07-06 08:50:17,337 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 74773353-8087-4351-96ea-876c9b04e6ca
+WARN  2017-07-06 08:50:43,131 [16   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:43,133 [16   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:43,134 [16   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:44,540 [16   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:44,541 [16   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:44,550 [16   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:44,552 [16   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:44,631 [16   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:50:44,728 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 74773353-8087-4351-96ea-876c9b04e6ca
+WARN  2017-07-06 08:50:44,814 [11   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:50:45,161 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"68283760-56fd-4621-a870-034856617198","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T08:50:45.1619367-04:00","Properties":{}}
+DEBUG 2017-07-06 08:50:45,196 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 68283760-56fd-4621-a870-034856617198
+WARN  2017-07-06 08:50:47,013 [9    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:47,015 [9    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:47,016 [9    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:47,074 [10   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:47,078 [10   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:47,079 [10   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:47,080 [10   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:47,082 [10   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:47,083 [10   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:50,540 [9    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:50,541 [9    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:50,542 [9    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:50,555 [9    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:50,556 [9    ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:50,558 [9    ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:50,559 [9    ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 08:50:50,576 [9    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:50:50,618 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 68283760-56fd-4621-a870-034856617198
+WARN  2017-07-06 08:50:51,054 [19   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:50:51,459 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c492d678-b908-4e68-9f32-b268daddd500","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T08:50:51.4582138-04:00","Properties":{}}
+DEBUG 2017-07-06 08:50:51,478 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c492d678-b908-4e68-9f32-b268daddd500
+WARN  2017-07-06 08:51:00,587 [17   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 08:51:00,588 [17   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 08:51:00,588 [17   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 08:51:00,599 [10   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 08:51:00,600 [10   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 08:51:00,601 [10   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 08:51:00,602 [10   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 08:51:00,602 [10   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 08:51:00,603 [10   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:51:23,511 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c492d678-b908-4e68-9f32-b268daddd500
+DEBUG 2017-07-06 08:53:16,159 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-06 08:53:16,640 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-06 08:53:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Web.NorthwindWebModule, Wind.Northwind.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindDataModule, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,651 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,651 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindCoreModule, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,651 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindApplicationModule, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Api.NorthwindWebApiModule, Wind.Northwind.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:16,656 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-06 08:53:17,489 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 08:53:17,489 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 08:53:17,489 [1    ] o.Configuration.LanguageManagementConfig - Converted Northwind (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 08:53:17,489 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 08:53:17,958 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Wind.Northwind.EntityFramework.NorthwindDbContext, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 08:53:18,798 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-06 08:53:18,807 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-06 08:53:18,813 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-06 08:53:18,818 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Northwind
+DEBUG 2017-07-06 08:53:18,820 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-06 08:53:18,938 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 08:53:19,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2017-07-06 08:53:19,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-06 08:53:19,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-06 08:53:19,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.CreateUserInput
+DEBUG 2017-07-06 08:53:19,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.UserListDto
+DEBUG 2017-07-06 08:53:19,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleEditDto
+DEBUG 2017-07-06 08:53:19,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleDto
+DEBUG 2017-07-06 08:53:19,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-07-06 08:53:19,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.PermissionListDto
+DEBUG 2017-07-06 08:53:19,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-06 08:53:19,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-06 08:53:19,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-07-06 08:53:19,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-06 08:53:21,520 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-06 08:53:21,521 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-06 08:53:21,522 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-06 08:53:21,523 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-07-06 08:53:21,524 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-07-06 08:53:25,960 [9    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:25,963 [9    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:25,964 [9    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:27,648 [9    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:27,649 [9    ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:27,657 [9    ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:27,658 [9    ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:28,462 [9    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:29,792 [16   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:53:31,352 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"45653b46-3b75-469d-86b4-f614de15b282","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T08:53:31.3426509-04:00","Properties":{}}
+DEBUG 2017-07-06 08:53:31,401 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 45653b46-3b75-469d-86b4-f614de15b282
+WARN  2017-07-06 08:53:39,055 [12   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:39,057 [12   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:39,058 [12   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:39,102 [9    ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:39,105 [9    ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:39,106 [9    ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:39,107 [9    ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:39,108 [9    ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:39,109 [9    ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:41,626 [9    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:41,628 [9    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:41,628 [9    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:41,661 [9    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:41,661 [9    ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:41,662 [9    ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:41,663 [9    ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:41,694 [9    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:53:41,807 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 45653b46-3b75-469d-86b4-f614de15b282
+WARN  2017-07-06 08:53:42,216 [12   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:53:42,696 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b2082188-2f57-48ac-81e8-e04fce038666","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T08:53:42.6969842-04:00","Properties":{}}
+DEBUG 2017-07-06 08:53:42,734 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b2082188-2f57-48ac-81e8-e04fce038666
+WARN  2017-07-06 08:53:44,589 [9    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:44,590 [9    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:44,591 [9    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:44,609 [16   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:44,612 [16   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:44,613 [16   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:44,615 [16   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:44,616 [16   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 08:53:44,617 [16   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-06 08:54:41,076 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b2082188-2f57-48ac-81e8-e04fce038666
+DEBUG 2017-07-06 09:19:07,739 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-06 09:19:08,215 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-06 09:19:08,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Web.NorthwindWebModule, Wind.Northwind.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindDataModule, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindCoreModule, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindApplicationModule, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Api.NorthwindWebApiModule, Wind.Northwind.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:08,230 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-06 09:19:09,067 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 09:19:09,067 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 09:19:09,067 [1    ] o.Configuration.LanguageManagementConfig - Converted Northwind (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 09:19:09,067 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 09:19:09,557 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Wind.Northwind.EntityFramework.NorthwindDbContext, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 09:19:10,420 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-06 09:19:10,428 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-06 09:19:10,433 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-06 09:19:10,436 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Northwind
+DEBUG 2017-07-06 09:19:10,438 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-06 09:19:10,555 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 09:19:10,629 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2017-07-06 09:19:10,629 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-06 09:19:10,633 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-06 09:19:10,633 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.CreateUserInput
+DEBUG 2017-07-06 09:19:10,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.UserListDto
+DEBUG 2017-07-06 09:19:10,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleEditDto
+DEBUG 2017-07-06 09:19:10,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleDto
+DEBUG 2017-07-06 09:19:10,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-07-06 09:19:10,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.PermissionListDto
+DEBUG 2017-07-06 09:19:10,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-06 09:19:10,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-06 09:19:10,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-07-06 09:19:10,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-06 09:19:12,650 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-06 09:19:12,651 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-06 09:19:12,652 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-06 09:19:12,653 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-07-06 09:19:12,654 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-07-06 09:19:16,663 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-07-06 09:19:20,182 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9833fd47-a5c1-4815-b5cb-ad55f32433c4","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-07-06T09:19:20.1388348-04:00","Properties":{}}
+DEBUG 2017-07-06 09:19:20,257 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9833fd47-a5c1-4815-b5cb-ad55f32433c4
+WARN  2017-07-06 09:19:25,098 [13   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:25,102 [13   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:25,103 [13   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:26,690 [13   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:26,691 [13   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:26,695 [13   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:26,696 [13   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:26,752 [13   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:26,899 [5    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:19:27,183 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d6624f55-2326-445b-9019-c2ed52cddc37","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:19:27.1836376-04:00","Properties":{}}
+DEBUG 2017-07-06 09:19:27,202 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d6624f55-2326-445b-9019-c2ed52cddc37
+WARN  2017-07-06 09:19:31,445 [13   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:31,446 [13   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:31,447 [13   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:31,466 [13   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:31,468 [13   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:31,470 [13   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:31,471 [13   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:31,497 [13   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:19:31,554 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d6624f55-2326-445b-9019-c2ed52cddc37
+WARN  2017-07-06 09:19:31,978 [10   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:19:32,292 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0b9993c0-f6db-425e-89c8-33a5b4af2dad","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:19:32.2920524-04:00","Properties":{}}
+DEBUG 2017-07-06 09:19:32,296 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0b9993c0-f6db-425e-89c8-33a5b4af2dad
+WARN  2017-07-06 09:19:32,924 [11   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:32,926 [11   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:32,926 [11   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:32,941 [11   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:32,942 [11   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:32,943 [11   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:32,944 [11   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:32,971 [11   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:19:33,043 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0b9993c0-f6db-425e-89c8-33a5b4af2dad
+WARN  2017-07-06 09:19:33,299 [10   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:19:33,565 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"392ef7a6-e360-43d6-8d35-c9b6c4a6e60b","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:19:33.5657623-04:00","Properties":{}}
+DEBUG 2017-07-06 09:19:33,571 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 392ef7a6-e360-43d6-8d35-c9b6c4a6e60b
+WARN  2017-07-06 09:19:36,088 [11   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:36,089 [11   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:36,090 [11   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:36,115 [10   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:36,117 [10   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:36,118 [10   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:36,119 [10   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:36,120 [10   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:36,120 [10   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:42,276 [10   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:42,277 [10   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:42,278 [10   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:42,287 [10   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:42,287 [10   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:42,289 [10   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:42,290 [10   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:19:42,306 [10   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:19:42,350 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 392ef7a6-e360-43d6-8d35-c9b6c4a6e60b
+WARN  2017-07-06 09:19:42,602 [19   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:19:42,914 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1f7a94a0-7960-4cea-8fac-d51e215bed1d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:19:42.9146569-04:00","Properties":{}}
+DEBUG 2017-07-06 09:19:42,928 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1f7a94a0-7960-4cea-8fac-d51e215bed1d
+DEBUG 2017-07-06 09:20:00,022 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9833fd47-a5c1-4815-b5cb-ad55f32433c4
+WARN  2017-07-06 09:20:23,819 [29   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:20:23,820 [29   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:20:23,820 [29   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:20:25,189 [29   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:20:25,190 [29   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:20:25,191 [29   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:20:25,191 [29   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:20:25,211 [29   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:20:25,261 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1f7a94a0-7960-4cea-8fac-d51e215bed1d
+WARN  2017-07-06 09:20:25,837 [34   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:20:26,533 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c0c24c06-0fb4-43f4-8e66-4301765a9806","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:20:26.5333625-04:00","Properties":{}}
+DEBUG 2017-07-06 09:20:26,558 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c0c24c06-0fb4-43f4-8e66-4301765a9806
+WARN  2017-07-06 09:20:28,530 [35   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:20:28,532 [35   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:20:28,533 [35   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:20:28,546 [35   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:20:28,546 [35   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:20:28,547 [35   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:20:28,548 [35   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:20:28,572 [35   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:20:28,622 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c0c24c06-0fb4-43f4-8e66-4301765a9806
+WARN  2017-07-06 09:20:29,036 [11   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:20:59,219 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"21aa8a39-de6f-4946-92e3-3af3388f4d1d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:20:59.2197029-04:00","Properties":{}}
+DEBUG 2017-07-06 09:20:59,229 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 21aa8a39-de6f-4946-92e3-3af3388f4d1d
+WARN  2017-07-06 09:22:22,289 [26   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:22,290 [26   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:22,290 [26   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:23,647 [26   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:23,647 [26   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:23,649 [26   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:23,650 [26   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:23,670 [26   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:22:23,717 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 21aa8a39-de6f-4946-92e3-3af3388f4d1d
+WARN  2017-07-06 09:22:23,841 [39   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:22:29,190 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e65aaecb-9770-4fbb-ad99-2abb4004cc32","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:22:29.1907895-04:00","Properties":{}}
+DEBUG 2017-07-06 09:22:29,202 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e65aaecb-9770-4fbb-ad99-2abb4004cc32
+WARN  2017-07-06 09:22:32,029 [40   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:32,030 [40   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:32,032 [40   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:32,047 [42   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:32,049 [42   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:32,049 [42   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:32,050 [42   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:32,051 [42   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:32,052 [42   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:46,287 [40   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:46,288 [40   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:46,288 [40   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:46,299 [44   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:46,299 [44   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:46,300 [44   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:46,301 [44   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:46,302 [44   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:46,302 [44   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:54,471 [42   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:54,472 [42   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:54,473 [42   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:54,487 [42   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:54,488 [42   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:54,489 [42   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:54,489 [42   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:22:54,506 [42   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:22:54,563 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e65aaecb-9770-4fbb-ad99-2abb4004cc32
+WARN  2017-07-06 09:22:54,731 [44   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:22:58,000 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2f77da6c-8dcd-45c3-9b62-4942bfd0cc6a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:22:58.0007144-04:00","Properties":{}}
+DEBUG 2017-07-06 09:22:58,016 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2f77da6c-8dcd-45c3-9b62-4942bfd0cc6a
+WARN  2017-07-06 09:23:00,970 [44   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:23:00,971 [44   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:23:00,972 [44   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:23:00,985 [47   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:23:00,986 [47   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:23:00,986 [47   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:23:00,987 [47   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:23:00,988 [47   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:23:00,989 [47   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:12,596 [37   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:12,597 [37   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:12,598 [37   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:12,612 [37   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:12,613 [37   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:12,614 [37   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:12,615 [37   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:12,638 [37   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:24:12,684 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2f77da6c-8dcd-45c3-9b62-4942bfd0cc6a
+WARN  2017-07-06 09:24:13,139 [39   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:24:16,917 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e8bad128-3b6c-40c6-a475-ada60ea9a279","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:24:16.9178341-04:00","Properties":{}}
+DEBUG 2017-07-06 09:24:16,926 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e8bad128-3b6c-40c6-a475-ada60ea9a279
+WARN  2017-07-06 09:24:32,827 [44   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:32,828 [44   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:32,829 [44   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:32,839 [29   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:32,840 [29   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:32,841 [29   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:32,841 [29   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:32,842 [29   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:32,843 [29   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:38,772 [26   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:38,774 [26   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:38,775 [26   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:38,802 [26   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:38,804 [26   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:38,806 [26   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:38,807 [26   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:24:38,834 [26   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:24:38,873 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e8bad128-3b6c-40c6-a475-ada60ea9a279
+WARN  2017-07-06 09:24:38,982 [11   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:25:35,077 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"904d346a-8f70-4d1c-979e-d0c6e854dcdb","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:25:35.0773508-04:00","Properties":{}}
+DEBUG 2017-07-06 09:25:35,091 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 904d346a-8f70-4d1c-979e-d0c6e854dcdb
+WARN  2017-07-06 09:25:38,352 [39   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:25:38,353 [39   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:25:38,354 [39   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:25:38,367 [40   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:25:38,368 [40   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:25:38,368 [40   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:25:38,369 [40   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:25:38,370 [40   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:25:38,370 [40   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:02,741 [36   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:02,742 [36   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:02,743 [36   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:02,754 [34   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:02,755 [34   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:02,756 [34   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:02,756 [34   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:02,757 [34   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:02,758 [34   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:26:08,280 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f0ccef50-8ac7-42bd-aab4-bbd7e36abaf8","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-07-06T09:26:08.2809942-04:00","Properties":{}}
+DEBUG 2017-07-06 09:26:08,292 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f0ccef50-8ac7-42bd-aab4-bbd7e36abaf8
+WARN  2017-07-06 09:26:29,930 [24   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:30,158 [36   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:26:30,557 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f3027e14-af41-4b0e-91ae-834d8d5fed78","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:26:30.5562452-04:00","Properties":{}}
+DEBUG 2017-07-06 09:26:30,607 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f3027e14-af41-4b0e-91ae-834d8d5fed78
+WARN  2017-07-06 09:26:31,666 [8    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:31,667 [8    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:31,669 [8    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:31,683 [8    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:31,684 [8    ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:31,685 [8    ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:31,686 [8    ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:26:31,709 [8    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:26:31,764 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f3027e14-af41-4b0e-91ae-834d8d5fed78
+WARN  2017-07-06 09:26:31,925 [8    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:26:32,600 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a32a7e1d-fa2f-463a-887d-3a2994a0114f","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:26:32.6007325-04:00","Properties":{}}
+DEBUG 2017-07-06 09:26:32,623 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a32a7e1d-fa2f-463a-887d-3a2994a0114f
+DEBUG 2017-07-06 09:26:40,393 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 904d346a-8f70-4d1c-979e-d0c6e854dcdb
+DEBUG 2017-07-06 09:27:00,422 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f0ccef50-8ac7-42bd-aab4-bbd7e36abaf8
+WARN  2017-07-06 09:27:22,980 [33   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:27:22,981 [33   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:27:22,981 [33   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:27:23,001 [26   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:27:23,002 [26   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:27:23,003 [26   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:27:23,005 [26   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:27:23,005 [26   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:27:23,006 [26   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:26,401 [25   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:26,402 [25   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:26,403 [25   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:26,424 [41   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:26,426 [41   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:26,426 [41   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:26,427 [41   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:26,428 [41   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:26,429 [41   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:33,746 [25   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:33,747 [25   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:33,748 [25   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:33,768 [25   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:33,769 [25   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:33,770 [25   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:33,771 [25   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:33,795 [25   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:33:33,870 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a32a7e1d-fa2f-463a-887d-3a2994a0114f
+WARN  2017-07-06 09:33:34,188 [8    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:33:35,052 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"472d9e50-6acc-44e1-93b3-821eadab1f48","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:33:35.0522977-04:00","Properties":{}}
+DEBUG 2017-07-06 09:33:35,072 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 472d9e50-6acc-44e1-93b3-821eadab1f48
+WARN  2017-07-06 09:33:42,005 [32   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:42,007 [32   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:42,008 [32   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:42,029 [41   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:42,031 [41   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:42,032 [41   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:42,034 [41   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:42,035 [41   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:33:42,036 [41   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:34:38,323 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8e441788-63d0-4b36-a712-95a8bcae9d19","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:34:38.3238983-04:00","Properties":{}}
+DEBUG 2017-07-06 09:35:05,846 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 472d9e50-6acc-44e1-93b3-821eadab1f48
+WARN  2017-07-06 09:40:47,432 [21   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:40:47,433 [21   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:40:47,434 [21   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:40:47,454 [46   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:40:47,456 [46   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:40:47,457 [46   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:40:47,458 [46   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:40:47,459 [46   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:40:47,459 [46   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:44:03,296 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e38f1ac9-b576-45be-9518-1796fce4dd04","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:44:03.2968543-04:00","Properties":{}}
+WARN  2017-07-06 09:44:03,321 [37   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:44:03,323 [37   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:44:03,324 [37   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:44:03,342 [50   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:44:03,343 [50   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:44:03,345 [50   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:44:03,346 [50   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:44:03,347 [50   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:44:03,349 [50   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:44:11,207 [50   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8e441788-63d0-4b36-a712-95a8bcae9d19
+WARN  2017-07-06 09:50:40,577 [60   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:40,580 [60   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:40,581 [60   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:40,607 [60   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:40,608 [60   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:40,609 [60   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:40,610 [60   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:40,635 [60   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:50:40,684 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e38f1ac9-b576-45be-9518-1796fce4dd04
+WARN  2017-07-06 09:50:41,374 [10   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:50:42,405 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4caf1bf6-88e8-4008-b0f5-3b31edfd6269","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:50:42.4055226-04:00","Properties":{}}
+DEBUG 2017-07-06 09:50:42,417 [61   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4caf1bf6-88e8-4008-b0f5-3b31edfd6269
+WARN  2017-07-06 09:50:44,326 [45   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:44,327 [45   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:44,328 [45   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:44,341 [35   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:44,342 [35   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:44,344 [35   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:44,345 [35   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:44,346 [35   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:50:44,347 [35   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 09:51:33,295 [10   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:51:33,296 [10   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:51:33,297 [10   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:51:33,310 [45   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:51:33,311 [45   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:51:33,311 [45   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:51:33,312 [45   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:51:33,313 [45   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:51:33,314 [45   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:18,376 [30   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:18,378 [30   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:18,379 [30   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:18,403 [30   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:18,404 [30   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:18,405 [30   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:18,406 [30   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:18,431 [30   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:53:18,507 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4caf1bf6-88e8-4008-b0f5-3b31edfd6269
+WARN  2017-07-06 09:53:19,165 [56   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:19,760 [54   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:19,762 [54   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:19,763 [54   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:19,942 [54   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:19,943 [54   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:19,945 [54   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:19,946 [54   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:19,983 [54   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:20,512 [30   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:53:26,094 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c5b86f9f-746b-4345-b977-38d31509ad6a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:53:26.0940129-04:00","Properties":{}}
+DEBUG 2017-07-06 09:53:26,172 [58   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c5b86f9f-746b-4345-b977-38d31509ad6a
+WARN  2017-07-06 09:53:27,474 [13   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:27,475 [13   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:27,476 [13   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:27,492 [13   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:27,494 [13   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:27,495 [13   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:27,496 [13   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:27,497 [13   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:27,498 [13   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:34,014 [50   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:34,016 [50   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:34,017 [50   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:34,031 [50   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:34,032 [50   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:34,033 [50   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:34,034 [50   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 09:53:34,050 [50   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:53:34,191 [60   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c5b86f9f-746b-4345-b977-38d31509ad6a
+WARN  2017-07-06 09:53:34,337 [60   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:54:35,472 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"21ee0caa-7f8e-4f3e-bb8b-008cd3d972b2","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:54:35.4720659-04:00","Properties":{}}
+DEBUG 2017-07-06 09:54:35,499 [54   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 21ee0caa-7f8e-4f3e-bb8b-008cd3d972b2
+WARN  2017-07-06 09:54:38,237 [37   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:54:38,238 [37   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:54:38,238 [37   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:54:38,250 [54   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:54:38,251 [54   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:54:38,252 [54   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:54:38,253 [54   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:54:38,253 [54   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:54:38,254 [54   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 09:57:09,581 [57   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 09:57:09,583 [57   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 09:57:09,583 [57   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 09:57:09,598 [53   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 09:57:09,599 [53   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 09:57:09,600 [53   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 09:57:09,600 [53   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 09:57:09,601 [53   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 09:57:09,602 [53   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-06 09:59:02,759 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6a8af721-3299-4a5b-9f96-b52ad4020a60","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T09:59:02.7595946-04:00","Properties":{}}
+DEBUG 2017-07-06 09:59:31,895 [61   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 21ee0caa-7f8e-4f3e-bb8b-008cd3d972b2
+WARN  2017-07-06 10:05:49,488 [28   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 10:05:49,489 [28   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 10:05:49,490 [28   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 10:05:49,508 [8    ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 10:05:49,511 [8    ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 10:05:49,512 [8    ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 10:05:49,513 [8    ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 10:05:49,514 [8    ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 10:05:49,514 [8    ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-06 10:06:30,384 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"72e2f299-244f-49ea-854f-488406194ae7","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T10:06:30.3848218-04:00","Properties":{}}
+DEBUG 2017-07-06 10:06:57,243 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6a8af721-3299-4a5b-9f96-b52ad4020a60
+WARN  2017-07-06 10:07:06,041 [5    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 10:07:06,042 [5    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 10:07:06,043 [5    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 10:07:06,058 [28   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 10:07:06,059 [28   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 10:07:06,060 [28   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 10:07:06,061 [28   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 10:07:06,062 [28   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 10:07:06,062 [28   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:04,740 [41   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:04,741 [41   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:04,742 [41   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:04,758 [8    ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:04,759 [8    ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:04,760 [8    ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:04,761 [8    ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:04,762 [8    ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:04,764 [8    ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:41,607 [61   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:41,608 [61   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:41,608 [61   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:41,619 [33   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:41,620 [33   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:41,620 [33   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:41,621 [33   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:41,622 [33   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 10:11:41,623 [33   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:15,698 [34   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:15,700 [34   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:15,701 [34   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:15,716 [34   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:15,718 [34   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:15,720 [34   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:15,722 [34   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:15,744 [34   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 10:15:15,821 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 72e2f299-244f-49ea-854f-488406194ae7
+WARN  2017-07-06 10:15:16,446 [61   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 10:15:18,864 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6937ff3c-15ab-400a-85fe-040958d5c137","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T10:15:18.8642278-04:00","Properties":{}}
+DEBUG 2017-07-06 10:15:18,930 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6937ff3c-15ab-400a-85fe-040958d5c137
+WARN  2017-07-06 10:15:20,404 [5    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:20,405 [5    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:20,405 [5    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:20,418 [24   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:20,419 [24   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:20,420 [24   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:20,421 [24   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:20,421 [24   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 10:15:20,422 [24   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-06 10:16:23,264 [5    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 10:16:23,265 [5    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 10:16:23,266 [5    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 10:16:23,278 [24   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 10:16:23,279 [24   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 10:16:23,280 [24   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 10:16:23,281 [24   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 10:16:23,282 [24   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 10:16:23,282 [24   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-06 10:16:28,236 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6937ff3c-15ab-400a-85fe-040958d5c137
+DEBUG 2017-07-06 10:21:58,474 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-06 10:21:59,292 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-06 10:21:59,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Web.NorthwindWebModule, Wind.Northwind.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindDataModule, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindCoreModule, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindApplicationModule, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Api.NorthwindWebApiModule, Wind.Northwind.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:21:59,308 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-06 10:22:00,395 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 10:22:00,395 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 10:22:00,395 [1    ] o.Configuration.LanguageManagementConfig - Converted Northwind (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 10:22:00,395 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 10:22:00,895 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Wind.Northwind.EntityFramework.NorthwindDbContext, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:22:01,699 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-06 10:22:01,707 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-06 10:22:01,714 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-06 10:22:01,718 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Northwind
+DEBUG 2017-07-06 10:22:01,720 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-06 10:22:01,841 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 10:22:01,903 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2017-07-06 10:22:01,903 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-06 10:22:01,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-06 10:22:01,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.CreateUserInput
+DEBUG 2017-07-06 10:22:01,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.UserListDto
+DEBUG 2017-07-06 10:22:01,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleEditDto
+DEBUG 2017-07-06 10:22:01,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleDto
+DEBUG 2017-07-06 10:22:01,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-07-06 10:22:01,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.PermissionListDto
+DEBUG 2017-07-06 10:22:01,908 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-06 10:22:01,908 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-06 10:22:01,908 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-07-06 10:22:01,908 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-06 10:22:03,984 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-06 10:22:03,985 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-06 10:22:03,986 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-06 10:22:03,987 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-07-06 10:22:03,988 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-07-06 10:22:07,659 [8    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-07-06 10:22:11,239 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"559366d7-4e28-47d4-b6ae-9ddd426c090a","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-07-06T10:22:11.2271946-04:00","Properties":{}}
+DEBUG 2017-07-06 10:22:11,284 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 559366d7-4e28-47d4-b6ae-9ddd426c090a
+WARN  2017-07-06 10:22:15,972 [10   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:16,127 [10   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 10:22:16,262 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4f39ab08-4371-43c8-a165-6c7aeae533c0","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T10:22:16.2610042-04:00","Properties":{}}
+DEBUG 2017-07-06 10:22:16,316 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4f39ab08-4371-43c8-a165-6c7aeae533c0
+WARN  2017-07-06 10:22:17,847 [11   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:17,850 [11   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:17,850 [11   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:17,936 [11   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:17,937 [11   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:17,944 [11   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:17,946 [11   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:17,985 [11   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 10:22:18,036 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4f39ab08-4371-43c8-a165-6c7aeae533c0
+WARN  2017-07-06 10:22:18,098 [12   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 10:22:18,380 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e14038f8-97ae-49d4-a76f-f8915774d1f4","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T10:22:18.3806319-04:00","Properties":{}}
+DEBUG 2017-07-06 10:22:18,425 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e14038f8-97ae-49d4-a76f-f8915774d1f4
+WARN  2017-07-06 10:22:20,107 [10   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:20,108 [10   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:20,109 [10   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:20,139 [8    ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:20,150 [8    ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:20,151 [8    ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:20,151 [8    ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:20,152 [8    ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 10:22:20,153 [8    ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-06 10:22:30,927 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e14038f8-97ae-49d4-a76f-f8915774d1f4
+DEBUG 2017-07-06 10:22:51,147 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 559366d7-4e28-47d4-b6ae-9ddd426c090a
+DEBUG 2017-07-06 10:28:13,309 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-06 10:28:13,861 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-06 10:28:13,871 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Web.NorthwindWebModule, Wind.Northwind.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindDataModule, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindCoreModule, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindApplicationModule, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Api.NorthwindWebApiModule, Wind.Northwind.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:13,887 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-06 10:28:14,781 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 10:28:14,781 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 10:28:14,781 [1    ] o.Configuration.LanguageManagementConfig - Converted Northwind (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 10:28:14,781 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 10:28:15,245 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Wind.Northwind.EntityFramework.NorthwindDbContext, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 10:28:16,238 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-06 10:28:16,254 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-06 10:28:16,262 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-06 10:28:16,268 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Northwind
+DEBUG 2017-07-06 10:28:16,270 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-06 10:28:16,445 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 10:28:16,551 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2017-07-06 10:28:16,551 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-06 10:28:16,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-06 10:28:16,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.CreateUserInput
+DEBUG 2017-07-06 10:28:16,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.UserListDto
+DEBUG 2017-07-06 10:28:16,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleEditDto
+DEBUG 2017-07-06 10:28:16,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleDto
+DEBUG 2017-07-06 10:28:16,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-07-06 10:28:16,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.PermissionListDto
+DEBUG 2017-07-06 10:28:16,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-06 10:28:16,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-06 10:28:16,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-07-06 10:28:16,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-06 10:28:18,807 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-06 10:28:18,809 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-06 10:28:18,810 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-06 10:28:18,811 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-07-06 10:28:18,812 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-07-06 10:28:22,332 [9    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-07-06 10:28:26,733 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e51f5000-1fc4-418a-b646-3f0d04506b1f","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-07-06T10:28:26.7192541-04:00","Properties":{}}
+DEBUG 2017-07-06 10:28:26,820 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e51f5000-1fc4-418a-b646-3f0d04506b1f
+WARN  2017-07-06 10:28:32,393 [9    ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:32,761 [15   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 10:28:32,912 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d8e0bf38-b758-474f-8b03-990a4a1d48e9","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T10:28:32.9110063-04:00","Properties":{}}
+DEBUG 2017-07-06 10:28:32,946 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d8e0bf38-b758-474f-8b03-990a4a1d48e9
+WARN  2017-07-06 10:28:34,456 [11   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:34,460 [11   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:34,461 [11   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:34,568 [11   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:34,570 [11   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:34,578 [11   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:34,580 [11   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:34,650 [11   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 10:28:34,709 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d8e0bf38-b758-474f-8b03-990a4a1d48e9
+WARN  2017-07-06 10:28:34,868 [12   ] Abp.Logging.LogHelper                    - Can not find 'Roles' in localization source 'Northwind'!
+DEBUG 2017-07-06 10:28:35,263 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8e0d0d99-923d-4b9c-95c7-1392ae2c52fe","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T10:28:35.2636993-04:00","Properties":{}}
+DEBUG 2017-07-06 10:28:35,297 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8e0d0d99-923d-4b9c-95c7-1392ae2c52fe
+WARN  2017-07-06 10:28:37,593 [15   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:37,594 [15   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:37,594 [15   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:37,667 [11   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:37,673 [11   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:37,675 [11   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:37,676 [11   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:37,677 [11   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-06 10:28:37,678 [11   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-06 10:29:06,579 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e51f5000-1fc4-418a-b646-3f0d04506b1f

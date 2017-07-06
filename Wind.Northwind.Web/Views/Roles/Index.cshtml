@@ -7,8 +7,9 @@
     ViewBag.Title = "Index";
 }
 
-@section styles{
-      <link href="~/Scripts/jtable/themes/metro/blue/jtable.min.css" rel="stylesheet" />  
+@section styles{    
+    @Html.IncludeStyle("~/Scripts/jtable/themes/metro/blue/jtable.min.css")
+    @Html.IncludeStyle("~/Content/jsTree/themes/default/style.min.css")
 }
 
 @section Scripts

@@ -60,7 +60,9 @@ namespace Wind.Northwind.Web
                         "~/Scripts/jtable/jquery.jtable.min.js",
                         "~/Abp/Framework/scripts/libs/abp.jtable.js",
                         "~/Scripts/underscore.min.js",
-                        "~/Scripts/jtable/jquery.jtable.min.js"
+                        "~/Scripts/jtable/jquery.jtable.min.js",
+                        "~/Scripts/jsTree3/jstree.min.js",
+                        "~/Scripts/spin/spin.min.js"
                     )
                 );
 

@@ -1,5 +1,5 @@
 ﻿(function () {
-    $(function () {
+    app.modals.CreateOrEditRoleModal = function () {
         var _modalManager;
         var _roleService = abp.services.app.role;
         var _$roleInformationForm = null;
@@ -16,7 +16,27 @@
             _$roleInformationForm.validate({ ignore: "" });
         };
 
-        //this.init();
+        this.save = function () {
 
-    }); 
+            if (!_$roleInformationForm.valid) {
+                return;
+            }
+
+            var role = _$roleInformationForm.serializeFormToObject();
+
+            _modalManager.setBusy(true);
+            _roleService.createOrUpdateRole({
+                role: role,
+                grantedPermissionNames: _permissionsTree.getSelectedPermissionNames()
+            }).done(function () {
+                //abp.notify.info(app.localize('SavedSuccessfully'));
+                alert('SavedSuccessfully');
+                _modalManager.close();
+                abp.event.trigger('app.createOrEditRoleModalSaved');
+                }).always(function () {
+                    _modalManager.setBusy(false);   
+                });
+        };
+
+    }; 
 })();
