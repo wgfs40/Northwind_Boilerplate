@@ -4,7 +4,7 @@ using Wind.Northwind.Authorization;
 
 namespace Wind.Northwind.Web.Controllers
 {
-    [AbpMvcAuthorize(PermissionNames.Pages_Users)]
+    [AbpMvcAuthorize(PermissionNames.Pages_User_Create)]
     public class AboutController : NorthwindControllerBase
     {
         public ActionResult Index()
