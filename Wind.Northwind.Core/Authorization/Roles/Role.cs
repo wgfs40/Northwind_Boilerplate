@@ -1,4 +1,5 @@
 ﻿using Abp.Authorization.Roles;
+using System;
 using Wind.Northwind.Users;
 
 namespace Wind.Northwind.Authorization.Roles
@@ -9,7 +10,7 @@ namespace Wind.Northwind.Authorization.Roles
         
         public Role()
         {
-
+            
         }
 
         public Role(int? tenantId, string displayName)
