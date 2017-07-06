@@ -44,7 +44,8 @@ namespace Wind.Northwind.Web
                         "About",
                         L("About"),
                         url: "About",
-                        icon: "fa fa-info"
+                        icon: "fa fa-info",
+                        requiredPermissionName : PermissionNames.Pages_User_Create // establecer los permisos para el menu
                         )
                 )
                 .AddItem(

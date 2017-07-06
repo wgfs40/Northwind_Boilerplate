@@ -68,7 +68,7 @@
                     values: { 'false': 'Passive', 'true': 'Active' },
                     list: true
                 },
-                name: {
+                creationtime: {
                     title: 'Name',
                     width: '40%',
                     list: true
@@ -77,6 +77,10 @@
             }
         });//end jtable
 
+
+        $("#CreateNewRoleButton").click(function () {
+            _createOrEditModal.open();
+        });
 
         function getUsers(reload) {
             if (reload) {
@@ -89,6 +93,10 @@
                 });
             }
         }
+
+        abp.event.on('app.createOrEditRoleModalSaved', function () {
+            getUsers();
+        });
 
         getUsers();
         //$('#UsersTableFilter').focus();
