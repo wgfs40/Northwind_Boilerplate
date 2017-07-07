@@ -10,13 +10,12 @@ namespace Wind.Northwind.Roles
     {
         Task UpdateRolePermissions(UpdateRolePermissionsInput input);
 
-
         Task<GetRoleForEditOutput> GetGetRoleForEdit(NullableIdDto input);
 
         Task CreateOrUpdateRole(CreateOrUpdateRoleInput input);
 
         Task DeleteRole(EntityDto input);
 
-        PagedResultDto<RoleDto> GetRolesLists();
+        PagedResultDto<RoleListDto> GetRolesLists();
     }
 }

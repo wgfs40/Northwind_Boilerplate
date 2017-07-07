@@ -141,6 +141,7 @@
     <Compile Include="Permissions\PermissionManagerExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Roles\Dto\RoleDto.cs" />
+    <Compile Include="Roles\Dto\RoleListDto.cs" />
     <Compile Include="Roles\IRoleAppService.cs" />
     <Compile Include="Roles\Dto\UpdateRolePermissionsInput.cs" />
     <Compile Include="Users\Dto\CreateUserInput.cs" />

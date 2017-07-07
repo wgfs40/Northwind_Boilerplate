@@ -4575,3 +4575,1400 @@ DEBUG 2017-07-06 17:07:42,120 [11   ] Abp.Modules.AbpModuleManager             -
 DEBUG 2017-07-06 17:07:42,121 [11   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
 DEBUG 2017-07-06 17:07:42,122 [11   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
 DEBUG 2017-07-06 17:07:42,122 [11   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-07-07 08:05:56,893 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-07 08:05:56,917 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-07 08:05:56,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Web.NorthwindWebModule, Wind.Northwind.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindDataModule, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindCoreModule, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindApplicationModule, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Api.NorthwindWebApiModule, Wind.Northwind.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:56,933 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-07 08:05:57,116 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:05:57,117 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:05:57,117 [1    ] o.Configuration.LanguageManagementConfig - Converted Northwind (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:05:57,117 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:05:57,464 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Wind.Northwind.EntityFramework.NorthwindDbContext, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:05:59,060 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-07 08:05:59,070 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-07 08:05:59,076 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-07 08:05:59,079 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Northwind
+DEBUG 2017-07-07 08:05:59,080 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-07 08:05:59,191 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-07 08:05:59,259 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-07-07 08:05:59,259 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-07 08:05:59,262 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-07 08:05:59,262 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.CreateUserInput
+DEBUG 2017-07-07 08:05:59,262 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.UserListDto
+DEBUG 2017-07-07 08:05:59,263 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.UserListRoleDto
+DEBUG 2017-07-07 08:05:59,263 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleEditDto
+DEBUG 2017-07-07 08:05:59,263 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleDto
+DEBUG 2017-07-07 08:05:59,263 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-07-07 08:05:59,263 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.PermissionListDto
+DEBUG 2017-07-07 08:05:59,263 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-07 08:05:59,263 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-07 08:05:59,263 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-07-07 08:05:59,263 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-07 08:06:01,311 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-07 08:06:01,313 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-07 08:06:01,314 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-07 08:06:01,315 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-07-07 08:06:01,317 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-07-07 08:06:03,148 [10   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-07-07 08:06:10,986 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"451bc4c5-710e-4c79-a136-986efc60416c","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-07-07T08:06:10.972337-04:00","Properties":{}}
+DEBUG 2017-07-07 08:06:11,037 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 451bc4c5-710e-4c79-a136-986efc60416c
+DEBUG 2017-07-07 08:07:26,035 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b9c9f9c8-e33b-41bd-9746-cf09103b80dd","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:07:26.034666-04:00","Properties":{}}
+DEBUG 2017-07-07 08:07:26,073 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b9c9f9c8-e33b-41bd-9746-cf09103b80dd
+WARN  2017-07-07 08:07:27,941 [15   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:07:27,945 [15   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:07:27,946 [15   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:07:29,319 [15   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:07:29,324 [15   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:07:29,326 [15   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:07:29,441 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b9c9f9c8-e33b-41bd-9746-cf09103b80dd
+DEBUG 2017-07-07 08:07:29,837 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9114fc03-d3cb-489d-99df-9547d2b797fb","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:07:29.8370042-04:00","Properties":{}}
+DEBUG 2017-07-07 08:07:29,846 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9114fc03-d3cb-489d-99df-9547d2b797fb
+ERROR 2017-07-07 08:07:30,248 [9    ] nHandling.AbpApiExceptionFilterAttribute - Error mapping types.
+
+Mapping types:
+DbSet`1 -> List`1
+System.Data.Entity.DbSet`1[[Wind.Northwind.Authorization.Roles.Role, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Wind.Northwind.Roles.Dto.RoleListDto, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+DbSet`1 -> List`1
+System.Data.Entity.DbSet`1[[Wind.Northwind.Authorization.Roles.Role, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Wind.Northwind.Roles.Dto.RoleListDto, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Role -> RoleListDto
+Wind.Northwind.Authorization.Roles.Role -> Wind.Northwind.Roles.Dto.RoleListDto
+   at lambda_method(Closure , Role , RoleListDto , ResolutionContext )
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination)
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   at Wind.Northwind.Roles.RoleAppService.GetRolesLists() in C:\Users\wfernandez\Documents\Visual Studio 2017\Projects\Northwind\Wind.Northwind.Application\Roles\RoleAppService.cs:line 49
+   at Castle.Proxies.RoleAppServiceProxy.GetRolesLists_callback()
+   at Castle.Proxies.Invocations.IRoleAppService_GetRolesLists.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   at Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.RoleAppServiceProxy.GetRolesLists()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DynamicApiController`1Proxy.GetRolesLists()
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2017-07-07 08:07:37,946 [17   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:07:37,947 [17   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:07:37,948 [17   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:07:37,960 [17   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:07:37,962 [17   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:07:37,963 [17   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:07:38,025 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9114fc03-d3cb-489d-99df-9547d2b797fb
+ERROR 2017-07-07 08:07:38,859 [9    ] nHandling.AbpApiExceptionFilterAttribute - Error mapping types.
+
+Mapping types:
+DbSet`1 -> List`1
+System.Data.Entity.DbSet`1[[Wind.Northwind.Authorization.Roles.Role, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Wind.Northwind.Roles.Dto.RoleListDto, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+DbSet`1 -> List`1
+System.Data.Entity.DbSet`1[[Wind.Northwind.Authorization.Roles.Role, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Wind.Northwind.Roles.Dto.RoleListDto, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Role -> RoleListDto
+Wind.Northwind.Authorization.Roles.Role -> Wind.Northwind.Roles.Dto.RoleListDto
+   at lambda_method(Closure , Role , RoleListDto , ResolutionContext )
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination)
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   at Wind.Northwind.Roles.RoleAppService.GetRolesLists() in C:\Users\wfernandez\Documents\Visual Studio 2017\Projects\Northwind\Wind.Northwind.Application\Roles\RoleAppService.cs:line 49
+   at Castle.Proxies.RoleAppServiceProxy.GetRolesLists_callback()
+   at Castle.Proxies.Invocations.IRoleAppService_GetRolesLists.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   at Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.RoleAppServiceProxy.GetRolesLists()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DynamicApiController`1Proxy.GetRolesLists()
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2017-07-07 08:07:39,096 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2d8421cd-3478-4db8-ae15-288c523b258b","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:07:39.0963035-04:00","Properties":{}}
+DEBUG 2017-07-07 08:07:39,136 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2d8421cd-3478-4db8-ae15-288c523b258b
+DEBUG 2017-07-07 08:07:55,953 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 451bc4c5-710e-4c79-a136-986efc60416c
+WARN  2017-07-07 08:09:15,447 [16   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:15,450 [16   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:15,452 [16   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:15,466 [16   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:15,469 [16   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:15,470 [16   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:09:15,533 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2d8421cd-3478-4db8-ae15-288c523b258b
+DEBUG 2017-07-07 08:09:16,461 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"97281ed5-5045-4dc1-ae57-794752dac1de","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:09:16.4615416-04:00","Properties":{}}
+DEBUG 2017-07-07 08:09:16,481 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 97281ed5-5045-4dc1-ae57-794752dac1de
+ERROR 2017-07-07 08:09:16,616 [16   ] nHandling.AbpApiExceptionFilterAttribute - Error mapping types.
+
+Mapping types:
+DbSet`1 -> List`1
+System.Data.Entity.DbSet`1[[Wind.Northwind.Authorization.Roles.Role, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Wind.Northwind.Roles.Dto.RoleListDto, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+DbSet`1 -> List`1
+System.Data.Entity.DbSet`1[[Wind.Northwind.Authorization.Roles.Role, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Wind.Northwind.Roles.Dto.RoleListDto, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Role -> RoleListDto
+Wind.Northwind.Authorization.Roles.Role -> Wind.Northwind.Roles.Dto.RoleListDto
+   at lambda_method(Closure , Role , RoleListDto , ResolutionContext )
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination)
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   at Wind.Northwind.Roles.RoleAppService.GetRolesLists() in C:\Users\wfernandez\Documents\Visual Studio 2017\Projects\Northwind\Wind.Northwind.Application\Roles\RoleAppService.cs:line 49
+   at Castle.Proxies.RoleAppServiceProxy.GetRolesLists_callback()
+   at Castle.Proxies.Invocations.IRoleAppService_GetRolesLists.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   at Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.RoleAppServiceProxy.GetRolesLists()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DynamicApiController`1Proxy.GetRolesLists()
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2017-07-07 08:09:39,576 [7    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:39,579 [7    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:39,580 [7    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:39,596 [7    ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:39,597 [7    ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:39,597 [7    ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:09:39,657 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 97281ed5-5045-4dc1-ae57-794752dac1de
+DEBUG 2017-07-07 08:09:41,218 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c0a9644c-5137-4f20-9fcc-ad4110129fff","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:09:41.2184376-04:00","Properties":{}}
+DEBUG 2017-07-07 08:09:41,233 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c0a9644c-5137-4f20-9fcc-ad4110129fff
+ERROR 2017-07-07 08:09:41,401 [7    ] nHandling.AbpApiExceptionFilterAttribute - Error mapping types.
+
+Mapping types:
+DbSet`1 -> List`1
+System.Data.Entity.DbSet`1[[Wind.Northwind.Authorization.Roles.Role, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Wind.Northwind.Roles.Dto.RoleListDto, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+DbSet`1 -> List`1
+System.Data.Entity.DbSet`1[[Wind.Northwind.Authorization.Roles.Role, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Wind.Northwind.Roles.Dto.RoleListDto, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Role -> RoleListDto
+Wind.Northwind.Authorization.Roles.Role -> Wind.Northwind.Roles.Dto.RoleListDto
+   at lambda_method(Closure , Role , RoleListDto , ResolutionContext )
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination)
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   at Wind.Northwind.Roles.RoleAppService.GetRolesLists() in C:\Users\wfernandez\Documents\Visual Studio 2017\Projects\Northwind\Wind.Northwind.Application\Roles\RoleAppService.cs:line 49
+   at Castle.Proxies.RoleAppServiceProxy.GetRolesLists_callback()
+   at Castle.Proxies.Invocations.IRoleAppService_GetRolesLists.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   at Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.RoleAppServiceProxy.GetRolesLists()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DynamicApiController`1Proxy.GetRolesLists()
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2017-07-07 08:09:52,160 [7    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:52,161 [7    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:52,162 [7    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:52,173 [7    ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:52,174 [7    ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:09:52,175 [7    ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:09:52,233 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c0a9644c-5137-4f20-9fcc-ad4110129fff
+DEBUG 2017-07-07 08:09:53,530 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e80429ee-a75c-414b-a4b1-4948edc71990","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:09:53.5301197-04:00","Properties":{}}
+ERROR 2017-07-07 08:09:53,540 [10   ] nHandling.AbpApiExceptionFilterAttribute - Error mapping types.
+
+Mapping types:
+DbSet`1 -> List`1
+System.Data.Entity.DbSet`1[[Wind.Northwind.Authorization.Roles.Role, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Wind.Northwind.Roles.Dto.RoleListDto, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+DbSet`1 -> List`1
+System.Data.Entity.DbSet`1[[Wind.Northwind.Authorization.Roles.Role, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Wind.Northwind.Roles.Dto.RoleListDto, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Role -> RoleListDto
+Wind.Northwind.Authorization.Roles.Role -> Wind.Northwind.Roles.Dto.RoleListDto
+   at lambda_method(Closure , Role , RoleListDto , ResolutionContext )
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination)
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   at Wind.Northwind.Roles.RoleAppService.GetRolesLists() in C:\Users\wfernandez\Documents\Visual Studio 2017\Projects\Northwind\Wind.Northwind.Application\Roles\RoleAppService.cs:line 49
+   at Castle.Proxies.RoleAppServiceProxy.GetRolesLists_callback()
+   at Castle.Proxies.Invocations.IRoleAppService_GetRolesLists.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   at Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.RoleAppServiceProxy.GetRolesLists()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DynamicApiController`1Proxy.GetRolesLists()
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2017-07-07 08:09:53,557 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e80429ee-a75c-414b-a4b1-4948edc71990
+WARN  2017-07-07 08:13:01,105 [33   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:13:01,107 [33   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:13:01,108 [33   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:13:01,125 [33   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:13:01,126 [33   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:13:01,127 [33   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:13:01,195 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e80429ee-a75c-414b-a4b1-4948edc71990
+DEBUG 2017-07-07 08:13:12,873 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a8630738-acc5-480c-be8e-40b1f0cccb01","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:13:12.8737133-04:00","Properties":{}}
+DEBUG 2017-07-07 08:13:22,684 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a8630738-acc5-480c-be8e-40b1f0cccb01
+ERROR 2017-07-07 08:13:23,100 [8    ] nHandling.AbpApiExceptionFilterAttribute - Error mapping types.
+
+Mapping types:
+DbSet`1 -> List`1
+System.Data.Entity.DbSet`1[[Wind.Northwind.Authorization.Roles.Role, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Wind.Northwind.Roles.Dto.RoleListDto, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+DbSet`1 -> List`1
+System.Data.Entity.DbSet`1[[Wind.Northwind.Authorization.Roles.Role, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Wind.Northwind.Roles.Dto.RoleListDto, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Role -> RoleListDto
+Wind.Northwind.Authorization.Roles.Role -> Wind.Northwind.Roles.Dto.RoleListDto
+   at lambda_method(Closure , Role , RoleListDto , ResolutionContext )
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination)
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   at Wind.Northwind.Roles.RoleAppService.GetRolesLists() in C:\Users\wfernandez\Documents\Visual Studio 2017\Projects\Northwind\Wind.Northwind.Application\Roles\RoleAppService.cs:line 49
+   at Castle.Proxies.RoleAppServiceProxy.GetRolesLists_callback()
+   at Castle.Proxies.Invocations.IRoleAppService_GetRolesLists.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   at Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.RoleAppServiceProxy.GetRolesLists()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DynamicApiController`1Proxy.GetRolesLists()
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2017-07-07 08:15:59,933 [35   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:15:59,934 [35   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:15:59,935 [35   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:15:59,952 [35   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:15:59,953 [35   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:15:59,954 [35   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:16:00,027 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a8630738-acc5-480c-be8e-40b1f0cccb01
+DEBUG 2017-07-07 08:16:34,534 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f41ea3fa-cccf-4d42-b403-1e9fab97c048","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:16:34.5341609-04:00","Properties":{}}
+DEBUG 2017-07-07 08:16:34,587 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f41ea3fa-cccf-4d42-b403-1e9fab97c048
+ERROR 2017-07-07 08:16:34,915 [33   ] nHandling.AbpApiExceptionFilterAttribute - Error mapping types.
+
+Mapping types:
+DbSet`1 -> List`1
+System.Data.Entity.DbSet`1[[Wind.Northwind.Authorization.Roles.Role, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Wind.Northwind.Roles.Dto.RoleListDto, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+DbSet`1 -> List`1
+System.Data.Entity.DbSet`1[[Wind.Northwind.Authorization.Roles.Role, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Wind.Northwind.Roles.Dto.RoleListDto, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Role -> RoleListDto
+Wind.Northwind.Authorization.Roles.Role -> Wind.Northwind.Roles.Dto.RoleListDto
+   at lambda_method(Closure , Role , RoleListDto , ResolutionContext )
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination)
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   at Wind.Northwind.Roles.RoleAppService.GetRolesLists() in C:\Users\wfernandez\Documents\Visual Studio 2017\Projects\Northwind\Wind.Northwind.Application\Roles\RoleAppService.cs:line 49
+   at Castle.Proxies.RoleAppServiceProxy.GetRolesLists_callback()
+   at Castle.Proxies.Invocations.IRoleAppService_GetRolesLists.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   at Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.RoleAppServiceProxy.GetRolesLists()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DynamicApiController`1Proxy.GetRolesLists()
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2017-07-07 08:18:52,496 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-07 08:18:52,513 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-07 08:18:52,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Web.NorthwindWebModule, Wind.Northwind.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindDataModule, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindCoreModule, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindApplicationModule, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Api.NorthwindWebApiModule, Wind.Northwind.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:52,531 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-07 08:18:52,711 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:18:52,711 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:18:52,711 [1    ] o.Configuration.LanguageManagementConfig - Converted Northwind (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:18:52,711 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:18:53,042 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Wind.Northwind.EntityFramework.NorthwindDbContext, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:18:54,396 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-07 08:18:54,406 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-07 08:18:54,411 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-07 08:18:54,414 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Northwind
+DEBUG 2017-07-07 08:18:54,415 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-07 08:18:54,528 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-07 08:18:54,596 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-07-07 08:18:54,596 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-07 08:18:54,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-07 08:18:54,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.CreateUserInput
+DEBUG 2017-07-07 08:18:54,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.UserListDto
+DEBUG 2017-07-07 08:18:54,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.UserListRoleDto
+DEBUG 2017-07-07 08:18:54,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleEditDto
+DEBUG 2017-07-07 08:18:54,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleDto
+DEBUG 2017-07-07 08:18:54,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleListDto
+DEBUG 2017-07-07 08:18:54,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-07-07 08:18:54,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.PermissionListDto
+DEBUG 2017-07-07 08:18:54,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-07 08:18:54,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-07 08:18:54,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-07-07 08:18:54,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-07 08:18:56,602 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-07 08:18:56,603 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-07 08:18:56,605 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-07 08:18:56,606 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-07-07 08:18:56,607 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-07-07 08:18:57,258 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - Can not find IP address of the client! connectionId: f41ea3fa-cccf-4d42-b403-1e9fab97c048
+ERROR 2017-07-07 08:18:57,258 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - Value does not fall within the expected range.
+System.ArgumentException: Value does not fall within the expected range.
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Web.Hosting.IIS7WorkerRequest.GetServerVariableInternal(String name)
+   at System.Web.Hosting.IIS7WorkerRequest.GetServerVariable(String name)
+   at System.Web.HttpRequest.FillInServerVariablesCollection()
+   at System.Web.HttpServerVarsCollection.Populate()
+   at System.Web.HttpServerVarsCollection.Get(String name)
+   at Microsoft.Owin.Host.SystemWeb.OwinCallContext.Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.IPropertySource.GetServerRemoteIpAddress()
+   at Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.get_ServerRemoteIpAddress()
+   at Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.PropertiesTryGetValue(String key, Object& value)
+   at Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item(String key)
+   at Abp.Web.SignalR.Hubs.AbpCommonHub.GetIpAddressOfClient()
+DEBUG 2017-07-07 08:18:57,337 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"f41ea3fa-cccf-4d42-b403-1e9fab97c048","IpAddress":"","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:18:57.2619805-04:00","Properties":{}}
+DEBUG 2017-07-07 08:19:04,974 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e4ca6477-2737-45a4-8704-9735e281b0da","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:19:04.9741978-04:00","Properties":{}}
+DEBUG 2017-07-07 08:19:05,013 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e4ca6477-2737-45a4-8704-9735e281b0da
+WARN  2017-07-07 08:21:04,163 [21   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:21:04,165 [21   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:21:04,166 [21   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:21:05,212 [21   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:21:05,220 [21   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:21:05,221 [21   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:21:05,329 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e4ca6477-2737-45a4-8704-9735e281b0da
+DEBUG 2017-07-07 08:21:05,820 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e862bdea-c09f-46ef-be90-fa983499ed39","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:21:05.8201718-04:00","Properties":{}}
+DEBUG 2017-07-07 08:21:05,831 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e862bdea-c09f-46ef-be90-fa983499ed39
+WARN  2017-07-07 08:21:23,643 [6    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:21:23,644 [6    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:21:23,645 [6    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:21:23,671 [11   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:21:23,674 [11   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-07 08:21:23,674 [11   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-07 08:21:23,675 [11   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-07 08:21:23,676 [11   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-07 08:21:23,677 [11   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:35,744 [32   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:35,746 [32   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:35,747 [32   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:35,771 [32   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:35,773 [32   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:35,773 [32   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:23:35,837 [4    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e862bdea-c09f-46ef-be90-fa983499ed39
+DEBUG 2017-07-07 08:23:36,330 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1be99deb-e14d-499f-8a7d-b6acb97fa305","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:23:36.3300862-04:00","Properties":{}}
+DEBUG 2017-07-07 08:23:36,337 [4    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1be99deb-e14d-499f-8a7d-b6acb97fa305
+WARN  2017-07-07 08:23:49,871 [28   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:49,872 [28   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:49,873 [28   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:49,886 [28   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:49,887 [28   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:49,888 [28   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:23:49,964 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1be99deb-e14d-499f-8a7d-b6acb97fa305
+DEBUG 2017-07-07 08:23:50,686 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"420ff260-508c-487c-823b-2351bfbee03f","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:23:50.686015-04:00","Properties":{}}
+DEBUG 2017-07-07 08:23:50,701 [4    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 420ff260-508c-487c-823b-2351bfbee03f
+WARN  2017-07-07 08:23:53,650 [4    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:53,651 [4    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:53,652 [4    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:53,664 [4    ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:53,665 [4    ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:23:53,665 [4    ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:23:53,727 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 420ff260-508c-487c-823b-2351bfbee03f
+DEBUG 2017-07-07 08:23:54,176 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"038c1ce5-f60e-4179-aa89-3e6305f02fad","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:23:54.1769405-04:00","Properties":{}}
+DEBUG 2017-07-07 08:23:54,233 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 038c1ce5-f60e-4179-aa89-3e6305f02fad
+DEBUG 2017-07-07 08:24:55,883 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-07 08:24:55,900 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-07 08:24:55,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Web.NorthwindWebModule, Wind.Northwind.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindDataModule, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindCoreModule, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindApplicationModule, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Api.NorthwindWebApiModule, Wind.Northwind.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:55,916 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-07 08:24:56,086 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:24:56,087 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:24:56,087 [1    ] o.Configuration.LanguageManagementConfig - Converted Northwind (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:24:56,087 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:24:56,451 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Wind.Northwind.EntityFramework.NorthwindDbContext, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:24:57,819 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-07 08:24:57,827 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-07 08:24:57,832 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-07 08:24:57,835 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Northwind
+DEBUG 2017-07-07 08:24:57,836 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-07 08:24:57,960 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-07 08:24:58,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-07-07 08:24:58,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-07 08:24:58,027 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-07 08:24:58,027 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.CreateUserInput
+DEBUG 2017-07-07 08:24:58,027 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.UserListDto
+DEBUG 2017-07-07 08:24:58,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.UserListRoleDto
+DEBUG 2017-07-07 08:24:58,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleEditDto
+DEBUG 2017-07-07 08:24:58,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleDto
+DEBUG 2017-07-07 08:24:58,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleListDto
+DEBUG 2017-07-07 08:24:58,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-07-07 08:24:58,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.PermissionListDto
+DEBUG 2017-07-07 08:24:58,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-07 08:24:58,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-07 08:24:58,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-07-07 08:24:58,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-07 08:25:00,025 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-07 08:25:00,027 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-07 08:25:00,029 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-07 08:25:00,031 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-07-07 08:25:00,032 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-07-07 08:25:08,176 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ab593934-a7cc-4937-8e98-42eafa27a4ec","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:25:08.1680792-04:00","Properties":{}}
+DEBUG 2017-07-07 08:25:08,212 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ab593934-a7cc-4937-8e98-42eafa27a4ec
+WARN  2017-07-07 08:25:18,446 [11   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:25:18,449 [11   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:25:18,450 [11   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:25:19,507 [11   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:25:19,516 [11   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:25:19,518 [11   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:25:19,628 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ab593934-a7cc-4937-8e98-42eafa27a4ec
+DEBUG 2017-07-07 08:25:20,066 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"924f2881-762a-4013-8a20-025d94a75ff5","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:25:20.06629-04:00","Properties":{}}
+DEBUG 2017-07-07 08:25:20,081 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 924f2881-762a-4013-8a20-025d94a75ff5
+DEBUG 2017-07-07 08:25:42,101 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"924f2881-762a-4013-8a20-025d94a75ff5","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:25:20.06629-04:00","Properties":{}}
+WARN  2017-07-07 08:26:32,665 [27   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:26:32,666 [27   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:26:32,667 [27   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:26:32,680 [27   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:26:32,681 [27   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:26:32,682 [27   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:26:32,744 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 924f2881-762a-4013-8a20-025d94a75ff5
+DEBUG 2017-07-07 08:26:33,565 [4    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f121bc47-e36c-4607-aa7f-fe7227d2152a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:26:33.5654764-04:00","Properties":{}}
+DEBUG 2017-07-07 08:26:33,573 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f121bc47-e36c-4607-aa7f-fe7227d2152a
+WARN  2017-07-07 08:27:07,023 [23   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:07,024 [23   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:07,025 [23   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:07,041 [23   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:07,043 [23   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:07,044 [23   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:27:07,118 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f121bc47-e36c-4607-aa7f-fe7227d2152a
+DEBUG 2017-07-07 08:27:07,839 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b6105f5d-3705-4a5f-9261-94cdb3cc5a30","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:27:07.8389796-04:00","Properties":{}}
+DEBUG 2017-07-07 08:27:07,847 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b6105f5d-3705-4a5f-9261-94cdb3cc5a30
+WARN  2017-07-07 08:27:23,203 [26   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:23,204 [26   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:23,205 [26   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:23,215 [26   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:23,215 [26   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:23,216 [26   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:27:23,280 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b6105f5d-3705-4a5f-9261-94cdb3cc5a30
+DEBUG 2017-07-07 08:27:23,973 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"70629254-2462-4cba-a4a4-8994b08f664e","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:27:23.9730754-04:00","Properties":{}}
+DEBUG 2017-07-07 08:27:23,983 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 70629254-2462-4cba-a4a4-8994b08f664e
+WARN  2017-07-07 08:27:34,954 [35   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:34,956 [35   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:34,957 [35   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:34,967 [35   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:34,968 [35   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:27:34,968 [35   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:27:35,026 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 70629254-2462-4cba-a4a4-8994b08f664e
+DEBUG 2017-07-07 08:27:35,773 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"330c244a-d01c-49f3-8c9d-c87bc63fe9bf","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:27:35.7730393-04:00","Properties":{}}
+DEBUG 2017-07-07 08:27:35,785 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 330c244a-d01c-49f3-8c9d-c87bc63fe9bf
+WARN  2017-07-07 08:29:29,342 [24   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:29,343 [24   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:29,344 [24   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:29,359 [24   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:29,360 [24   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:29,361 [24   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:29:29,429 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 330c244a-d01c-49f3-8c9d-c87bc63fe9bf
+DEBUG 2017-07-07 08:29:30,189 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6f572145-9d49-4187-82bc-f391291ccf0f","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:29:30.1890667-04:00","Properties":{}}
+DEBUG 2017-07-07 08:29:30,195 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6f572145-9d49-4187-82bc-f391291ccf0f
+WARN  2017-07-07 08:29:39,192 [41   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:39,193 [41   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:39,193 [41   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:39,202 [41   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:39,203 [41   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:39,204 [41   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:29:39,260 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6f572145-9d49-4187-82bc-f391291ccf0f
+DEBUG 2017-07-07 08:29:39,934 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6e6e578d-2669-441d-83ab-13eaf25f42f6","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:29:39.9342479-04:00","Properties":{}}
+DEBUG 2017-07-07 08:29:39,941 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6e6e578d-2669-441d-83ab-13eaf25f42f6
+WARN  2017-07-07 08:29:41,097 [30   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:41,098 [30   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:41,099 [30   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:41,111 [30   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:41,112 [30   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:41,112 [30   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:29:41,168 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6e6e578d-2669-441d-83ab-13eaf25f42f6
+DEBUG 2017-07-07 08:29:41,559 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ead832a2-1c78-4972-ab2c-4e4875fdb349","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:29:41.5596732-04:00","Properties":{}}
+DEBUG 2017-07-07 08:29:41,565 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ead832a2-1c78-4972-ab2c-4e4875fdb349
+WARN  2017-07-07 08:29:55,609 [30   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:55,612 [30   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:55,614 [30   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:55,633 [30   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:55,634 [30   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:29:55,635 [30   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:29:55,696 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ead832a2-1c78-4972-ab2c-4e4875fdb349
+DEBUG 2017-07-07 08:31:47,781 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2bb6fe55-f9c5-43f5-aaa6-f4edbd26c03a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:31:47.7813574-04:00","Properties":{}}
+DEBUG 2017-07-07 08:31:47,791 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2bb6fe55-f9c5-43f5-aaa6-f4edbd26c03a
+WARN  2017-07-07 08:31:49,540 [5    ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:31:49,542 [5    ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:31:49,543 [5    ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:31:49,562 [5    ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:31:49,564 [5    ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:31:49,565 [5    ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:31:49,746 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2bb6fe55-f9c5-43f5-aaa6-f4edbd26c03a
+DEBUG 2017-07-07 08:31:51,039 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9b4f05dc-f08b-4c6f-9455-733c938ebffe","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:31:51.0392743-04:00","Properties":{}}
+DEBUG 2017-07-07 08:31:51,074 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9b4f05dc-f08b-4c6f-9455-733c938ebffe
+WARN  2017-07-07 08:36:14,943 [32   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+WARN  2017-07-07 08:36:20,020 [25   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-07-07 08:36:22,357 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5168538e-64cc-48a4-8d1f-f7d5ddfc51e0","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-07-07T08:36:22.3579473-04:00","Properties":{}}
+DEBUG 2017-07-07 08:36:22,366 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5168538e-64cc-48a4-8d1f-f7d5ddfc51e0
+WARN  2017-07-07 08:36:28,120 [23   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:28,121 [23   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:28,121 [23   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:28,138 [23   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:28,140 [23   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:28,141 [23   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:36:28,700 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"72f5b278-aead-44ab-af73-bce8e44d40d7","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:36:28.6996131-04:00","Properties":{}}
+DEBUG 2017-07-07 08:36:28,760 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 72f5b278-aead-44ab-af73-bce8e44d40d7
+WARN  2017-07-07 08:36:30,581 [24   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:30,583 [24   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:30,584 [24   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:30,624 [21   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:30,630 [21   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:30,632 [21   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:30,635 [21   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:30,638 [21   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:30,639 [21   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:35,325 [25   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:35,326 [25   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:35,327 [25   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:35,346 [21   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:35,348 [21   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:35,350 [21   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:35,350 [21   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:35,351 [21   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:35,352 [21   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:39,167 [16   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:39,169 [16   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:39,170 [16   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:39,191 [24   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:39,193 [24   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:39,194 [24   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:39,195 [24   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:39,197 [24   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:39,198 [24   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:46,664 [21   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:46,666 [21   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:46,667 [21   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:46,687 [24   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:46,688 [24   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:46,690 [24   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:46,691 [24   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:46,693 [24   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:46,694 [24   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:51,419 [24   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:51,420 [24   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:51,420 [24   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:51,431 [20   ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:51,432 [20   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:51,433 [20   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:51,433 [20   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:51,434 [20   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-07 08:36:51,435 [20   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:36:56,877 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9b4f05dc-f08b-4c6f-9455-733c938ebffe
+DEBUG 2017-07-07 08:37:01,876 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5168538e-64cc-48a4-8d1f-f7d5ddfc51e0
+DEBUG 2017-07-07 08:53:20,266 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-07 08:53:20,282 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-07 08:53:20,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Web.NorthwindWebModule, Wind.Northwind.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindDataModule, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindCoreModule, Wind.Northwind.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.NorthwindApplicationModule, Wind.Northwind.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Wind.Northwind.Api.NorthwindWebApiModule, Wind.Northwind.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,299 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,299 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,299 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,299 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:20,304 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-07 08:53:20,469 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:53:20,469 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:53:20,469 [1    ] o.Configuration.LanguageManagementConfig - Converted Northwind (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:53:20,469 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-07 08:53:20,802 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Wind.Northwind.EntityFramework.NorthwindDbContext, Wind.Northwind.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-07 08:53:22,201 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-07 08:53:22,209 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-07 08:53:22,216 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-07 08:53:22,218 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Northwind
+DEBUG 2017-07-07 08:53:22,219 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-07 08:53:22,336 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-07 08:53:22,405 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-07-07 08:53:22,405 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-07 08:53:22,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-07 08:53:22,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.CreateUserInput
+DEBUG 2017-07-07 08:53:22,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.UserListDto
+DEBUG 2017-07-07 08:53:22,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Users.Dto.UserListRoleDto
+DEBUG 2017-07-07 08:53:22,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleEditDto
+DEBUG 2017-07-07 08:53:22,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleDto
+DEBUG 2017-07-07 08:53:22,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Roles.Dto.RoleListDto
+DEBUG 2017-07-07 08:53:22,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2017-07-07 08:53:22,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Permissions.Dto.PermissionListDto
+DEBUG 2017-07-07 08:53:22,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-07 08:53:22,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-07 08:53:22,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2017-07-07 08:53:22,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Wind.Northwind.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-07 08:53:24,461 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-07 08:53:24,463 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-07 08:53:24,464 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-07 08:53:24,467 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2017-07-07 08:53:24,468 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Wind.Northwind.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-07-07 08:53:25,331 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"15167402-c470-464b-9ea5-4c4003e19734","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:53:25.3046305-04:00","Properties":{}}
+DEBUG 2017-07-07 08:53:33,425 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1ec02723-7306-4049-94b6-dbf9a0e81ead","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:53:33.4256997-04:00","Properties":{}}
+DEBUG 2017-07-07 08:53:33,478 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1ec02723-7306-4049-94b6-dbf9a0e81ead
+WARN  2017-07-07 08:53:42,966 [12   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:53:42,968 [12   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:53:42,969 [12   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:53:44,071 [12   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:53:44,079 [12   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:53:44,080 [12   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:53:44,204 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1ec02723-7306-4049-94b6-dbf9a0e81ead
+DEBUG 2017-07-07 08:53:44,609 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2afe20bc-df71-4b01-9146-b58c1734af74","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:53:44.6097487-04:00","Properties":{}}
+DEBUG 2017-07-07 08:53:44,620 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2afe20bc-df71-4b01-9146-b58c1734af74
+WARN  2017-07-07 08:54:21,812 [18   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:54:21,813 [18   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:54:21,814 [18   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:54:21,830 [18   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:54:21,831 [18   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:54:21,832 [18   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:54:21,992 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2afe20bc-df71-4b01-9146-b58c1734af74
+DEBUG 2017-07-07 08:54:51,081 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"88bdb269-53e0-4d4d-8a13-2d72324817e5","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:54:51.0811917-04:00","Properties":{}}
+DEBUG 2017-07-07 08:54:51,093 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 88bdb269-53e0-4d4d-8a13-2d72324817e5
+DEBUG 2017-07-07 08:54:52,854 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 15167402-c470-464b-9ea5-4c4003e19734
+WARN  2017-07-07 08:55:22,964 [25   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 08:55:22,966 [25   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 08:55:22,967 [25   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 08:55:22,991 [25   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 08:55:22,992 [25   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 08:55:22,993 [25   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 08:55:23,084 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 88bdb269-53e0-4d4d-8a13-2d72324817e5
+DEBUG 2017-07-07 08:55:29,730 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b74b28c3-fc1b-4ad7-a128-3053a5b6c28c","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T08:55:29.7301518-04:00","Properties":{}}
+DEBUG 2017-07-07 08:55:29,744 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b74b28c3-fc1b-4ad7-a128-3053a5b6c28c
+WARN  2017-07-07 09:26:55,178 [26   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 09:26:55,179 [26   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 09:26:55,180 [26   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 09:26:55,193 [26   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 09:26:55,194 [26   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 09:26:55,195 [26   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 09:26:55,270 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b74b28c3-fc1b-4ad7-a128-3053a5b6c28c
+DEBUG 2017-07-07 09:26:56,160 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9c2a392d-a458-4db9-8081-4e9d7904ffc1","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T09:26:56.1592253-04:00","Properties":{}}
+DEBUG 2017-07-07 09:26:56,171 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9c2a392d-a458-4db9-8081-4e9d7904ffc1
+WARN  2017-07-07 09:30:39,360 [13   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 09:30:39,361 [13   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 09:30:39,362 [13   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 09:30:39,375 [13   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 09:30:39,376 [13   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 09:30:39,377 [13   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 09:30:39,455 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9c2a392d-a458-4db9-8081-4e9d7904ffc1
+DEBUG 2017-07-07 09:30:40,218 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"56633c90-9492-418e-931a-39ed590590c7","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T09:30:40.218871-04:00","Properties":{}}
+DEBUG 2017-07-07 09:30:40,229 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 56633c90-9492-418e-931a-39ed590590c7
+WARN  2017-07-07 09:30:41,771 [22   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 09:30:41,772 [22   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 09:30:41,773 [22   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 09:30:41,783 [22   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 09:30:41,784 [22   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 09:30:41,784 [22   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 09:30:41,842 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 56633c90-9492-418e-931a-39ed590590c7
+DEBUG 2017-07-07 09:30:42,303 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"484dd358-fde4-463a-b151-82eaa1382818","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T09:30:42.3029882-04:00","Properties":{}}
+DEBUG 2017-07-07 09:30:42,338 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 484dd358-fde4-463a-b151-82eaa1382818
+WARN  2017-07-07 09:30:57,113 [9    ] nHandling.AbpApiExceptionFilterAttribute - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2017-07-07 09:30:57,118 [9    ] nHandling.AbpApiExceptionFilterAttribute - There are 2 validation errors:
+WARN  2017-07-07 09:30:57,118 [9    ] nHandling.AbpApiExceptionFilterAttribute - The Role field is required. (input.Role)
+WARN  2017-07-07 09:30:57,118 [9    ] nHandling.AbpApiExceptionFilterAttribute - The GrantedPermissionNames field is required. (input.GrantedPermissionNames)
+WARN  2017-07-07 09:32:04,488 [9    ] nHandling.AbpApiExceptionFilterAttribute - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2017-07-07 09:32:04,488 [9    ] nHandling.AbpApiExceptionFilterAttribute - There are 2 validation errors:
+WARN  2017-07-07 09:32:04,488 [9    ] nHandling.AbpApiExceptionFilterAttribute - The Role field is required. (input.Role)
+WARN  2017-07-07 09:32:04,488 [9    ] nHandling.AbpApiExceptionFilterAttribute - The GrantedPermissionNames field is required. (input.GrantedPermissionNames)
+WARN  2017-07-07 09:35:55,746 [13   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 09:35:55,748 [13   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 09:35:55,749 [13   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 09:35:55,768 [13   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 09:35:55,769 [13   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 09:35:55,770 [13   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 09:35:55,869 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 484dd358-fde4-463a-b151-82eaa1382818
+DEBUG 2017-07-07 09:35:56,849 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4ccccd21-465a-4755-b60f-2c4d00cb25ad","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T09:35:56.8495181-04:00","Properties":{}}
+DEBUG 2017-07-07 09:35:56,915 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4ccccd21-465a-4755-b60f-2c4d00cb25ad
+WARN  2017-07-07 09:36:18,554 [28   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 09:36:18,556 [28   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 09:36:18,557 [28   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 09:36:18,600 [28   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 09:36:18,603 [28   ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-07 09:36:18,604 [28   ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-07 09:36:18,605 [28   ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-07 09:36:18,606 [28   ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-07 09:36:18,606 [28   ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-07 09:52:35,942 [22   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-07-07 09:52:38,330 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b47fd3c1-26f3-44e9-8fc2-1db9806c59b1","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-07-07T09:52:38.3306598-04:00","Properties":{}}
+DEBUG 2017-07-07 09:52:38,337 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b47fd3c1-26f3-44e9-8fc2-1db9806c59b1
+WARN  2017-07-07 09:52:44,866 [11   ] Abp.Logging.LogHelper                    - Can not find 'SearchWithThreeDot' in localization source 'Northwind'!
+DEBUG 2017-07-07 09:52:45,429 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b19a4b70-8339-4e77-9176-8ff1741d9a8d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T09:52:45.4294371-04:00","Properties":{}}
+DEBUG 2017-07-07 09:52:45,476 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b19a4b70-8339-4e77-9176-8ff1741d9a8d
+DEBUG 2017-07-07 09:53:02,147 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b19a4b70-8339-4e77-9176-8ff1741d9a8d
+DEBUG 2017-07-07 09:53:02,630 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7c17cf76-5f0f-4236-a65d-bcf835dc6bd8","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T09:53:02.6302446-04:00","Properties":{}}
+DEBUG 2017-07-07 09:53:02,638 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7c17cf76-5f0f-4236-a65d-bcf835dc6bd8
+WARN  2017-07-07 09:53:05,623 [21   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:05,624 [21   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:05,624 [21   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:05,640 [21   ] Abp.Logging.LogHelper                    - Can not find 'RolesHeaderInfo' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:05,642 [21   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewRole' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:05,643 [21   ] Abp.Logging.LogHelper                    - Can not find 'FilterByPermission' in localization source 'Northwind'!
+DEBUG 2017-07-07 09:53:05,718 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7c17cf76-5f0f-4236-a65d-bcf835dc6bd8
+DEBUG 2017-07-07 09:53:06,195 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e17b64a1-4a7a-4e53-81e8-efc9b55add17","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-07T09:53:06.1957111-04:00","Properties":{}}
+DEBUG 2017-07-07 09:53:06,199 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e17b64a1-4a7a-4e53-81e8-efc9b55add17
+DEBUG 2017-07-07 09:53:08,413 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4ccccd21-465a-4755-b60f-2c4d00cb25ad
+WARN  2017-07-07 09:53:09,033 [12   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:09,035 [12   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:09,035 [12   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:09,050 [9    ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:09,052 [9    ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:09,053 [9    ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:09,054 [9    ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:09,055 [9    ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:09,055 [9    ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:12,476 [22   ] Abp.Logging.LogHelper                    - Can not find 'Pages' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:12,478 [22   ] Abp.Logging.LogHelper                    - Can not find 'Create User' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:12,478 [22   ] Abp.Logging.LogHelper                    - Can not find 'User Edit' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:12,493 [9    ] Abp.Logging.LogHelper                    - Can not find 'EditRole' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:12,494 [9    ] Abp.Logging.LogHelper                    - Can not find 'RoleProperties' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:12,495 [9    ] Abp.Logging.LogHelper                    - Can not find 'Permissions' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:12,497 [9    ] Abp.Logging.LogHelper                    - Can not find 'RoleName' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:12,497 [9    ] Abp.Logging.LogHelper                    - Can not find 'Default' in localization source 'Northwind'!
+WARN  2017-07-07 09:53:12,498 [9    ] Abp.Logging.LogHelper                    - Can not find 'DefaultRole_Description' in localization source 'Northwind'!
+DEBUG 2017-07-07 09:53:18,401 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b47fd3c1-26f3-44e9-8fc2-1db9806c59b1

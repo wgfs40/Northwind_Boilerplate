@@ -22,10 +22,7 @@
             actions: {
                 listAction: {
                     method: _roleService.getRolesLists
-                },
-                createAction: '/Actions/CreateOrder',
-                updateAction: '/Actions/UpdateOrder',
-                deleteAction: '/Actions/DeleteOrder'
+                }
             },
             fields: {
                 id: {
@@ -34,7 +31,7 @@
                 },
                 actions: {
                     title: 'Actions',
-                    width: '30%',
+                    width: '10%',
                     display: function (data) {
                         var $span = $('<span></span>');
 
@@ -50,10 +47,10 @@
                     },
                 displayName: {
                     title: 'Display name',
-                    width: '40%',
+                    width: '30%',
                     list: true
                 },
-                isstatic: {
+                isStatic: {
                     title: 'Is Static',
                     width: '15%',
                     type: 'checkbox',
@@ -61,16 +58,16 @@
                     defaultValue: 'true',
                     list: true
                 },
-                isdefault: {
+                isDefault: {
                     title: 'Is Default',
                     width: '15%',
                     type: 'checkbox',
                     values: { 'false': 'Passive', 'true': 'Active' },
                     list: true
                 },
-                creationtime: {
-                    title: 'Name',
-                    width: '40%',
+                creationTime: {
+                    title: 'Creation Time',
+                    width: '25%',
                     list: true
                 }
 

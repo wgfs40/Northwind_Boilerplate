@@ -40,13 +40,13 @@ namespace Wind.Northwind.Roles
             await _roleManager.SetGrantedPermissionsAsync(role, grantedPermissions);
         }
 
-        public PagedResultDto<RoleDto> GetRolesLists()
+        public PagedResultDto<RoleListDto> GetRolesLists()
         {
             var count = _roleRepository.GetAll().Count();
             var listrole = _roleRepository.GetAll();
-            
+            var paged = new PagedResultDto<RoleListDto>(count, listrole.MapTo<List<RoleListDto>>());
 
-            return new PagedResultDto<RoleDto>(count, listrole.MapTo<List<RoleDto>>());
+            return paged;
         }
 
         public async Task<GetRoleForEditOutput> GetGetRoleForEdit(NullableIdDto input)
